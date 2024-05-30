@@ -1,11 +1,12 @@
 # Who am I
 
 ## Spirit Pros
-
-- Intelligence
+- Brilliant Intelligence
+- professional knowledge
 - Debate Orator
 - brilliant learning skill in philosophy
 - Philosophy level
+- no fear, no stress, no worry
 - Mathematics
 - Culture level
 - Vision
@@ -21,6 +22,8 @@
 - Nice hand
 - White skin
 - Flexible body
+- Healthy
+- Beauty
 
 ## Ability
 
@@ -34,22 +37,27 @@
 # When I feel Stress
 
 - deep breath
-- change feeling
-- conversation
-- laughing
-- humor / sarcasm
+- get rid of bad feelings
+- inner chatting
+- laughing, joke
+- humor / sarcasm / ironical attitude
 - increase morale by cartoon
 - do what I love
 - sport / music
 - never feel
-- avoid
+- avoid stressful situations
 
 # Goal
 - Immortality
  No Sleep
  Adopt new Feeling
+ Water fall principle
 
-- Independent
+- Freedom
  36405d cartoon, video game
- Philosophy, mathatics, biology, physics.
+ Philosophy
+ mathatics
+ biology for life
+ physics - universe
  AI for life and pleasure.
+ kill, uncover, flesh, x with organ

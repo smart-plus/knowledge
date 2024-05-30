@@ -1,9 +1,9 @@
 # Jeesil
 eye
-weight
+weight, fitness
 talent(speed reading, imagination, guessing, mental arithmetic, memorization)
 brain bend(problem solving)
-chinese, english
+english, russian, chinese
 biochemistry, anatomy
 money
 item
