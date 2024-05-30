@@ -1,0 +1,108 @@
+
+;Search text through all files in etc directory
+grep -i -r "cert-3lLiIN" /etc/*
+
+grep -i -r "hazrati.com" /etc/*
+
+grep -i -r "htaccess.sample" /var/*
+
+grep -i -r "beta.hazrati.com" /etc
+
+; nginx trace
+nginx -t
+
+; nginx version
+nginx -v
+
+; nginx plesk server configuration
+/etc/nginx/plesk.conf.d/server.conf
+
+/usr/local/psa/var/certificates/cert-3lLiIN
+ls /usr/local/psa/var/certificates
+cert-CitVUh  cert-q5z0ZC  certWc9Lu3Z  cert-YgEI8A
+
+ls /usr/local/psa/var/certificates/cert-q5z0ZC
+
+nano /etc/nginx/plesk.conf.d/server.conf
+
+; find file name 
+find / -name "cert-3lLiIN"
+
+find / -name "server.key"
+
+find /var -name "351426.jpg"
+
+find /var -name ".htaccess.sample"
+
+find /etc -name "fullchain.pem"
+
+find /etc -name "privkey.pem"
+
+find /etc -name "ssl"
+
+find /etc -name "httpd.conf"
+
+;generate self ssl key
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/ssl/private/nginx-selfsigned.key -out /etc/ssl/certs/nginx-selfsigned.crt
+
+;inspect net port status
+netstat -tuplen
+
+/var/www/vhosts/hazrati.com/httpdocs
+
+rpm --query centos-release
+
+
+
+sudo su -
+sudo -i
+service httpd stop
+systemctl disable httpd
+systemctl enable httpd
+yum install epel-release
+
+sudo touch /etc/nginx/conf.d/default.conf
+sudo nano /etc/nginx/conf.d/default.conf
+
+./configure --sbin-path=/usr/local/nginx/nginx --conf-path=/usr/local/nginx/nginx.conf --pid-path=/usr/local/nginx/nginx.pid --with-pcre=../pcre-8.40 --with-zlib=../zlib-1.2.11 --with-http_ssl_module --with-stream --with-mail --add-module=/usr/build/nginx-rtmp-module 
+
+ file /etc/logrotate.d/nginx from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /usr/sbin/nginx from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /var/log/nginx from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /etc/nginx/fastcgi.conf from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /etc/nginx/fastcgi.conf.default from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /etc/nginx/fastcgi_params from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /etc/nginx/fastcgi_params.default from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /etc/nginx/nginx.conf from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /etc/nginx/nginx.conf.default from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+  file /usr/lib/systemd/system/nginx.service from install of nginx-1:1.10.2-1.el7.x86_64 conflicts with file from package sw-nginx-1.11.10-centos7.17032813.x86_64
+
+nano /etc/nginx/nginx.conf
+
+sudo yum install certbot
+
+sudo certbot certonly -a webroot --webroot-path=/var/www/vhosts/abc.com/httpdocs -d abc.com -d www.abc.com
+
+/etc/letsencrypt
+
+/home/centos/hazrati.com/gd_bundle-g2-g1.crt
+
+/home/centos/hazrati.com/977520ab6542014.crt
+
+mkdir /etc/nginx/ssl
+
+cd /etc/nginx/ssl
+
+; /etc/nginx/ssl/hazrati.com.key  /etc/nginx/ssl/hazrati.com.csr
+
+challenge password: gm_net_ha_57.
+
+682104074532036628
+
+; edit apache config
+nano /etc/httpd/conf/httpd.conf
+
+; edit plesk config
+nano /etc/sw-cp-server/conf.d/plesk.conf
+
+

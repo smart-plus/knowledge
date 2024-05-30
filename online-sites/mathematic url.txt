@@ -1,0 +1,7 @@
+zeta function culculator
+https://solvemymath.com/online_math_calculator/number_theory/riemann_function/index.php
+
+The brachistochrone problem
+https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/
+https://www.tau.ac.il/~flaxer/edu/course/computerappl/exercise/Brachistochrone%20Curve.pdf
+https://mathcurve.com/courbes2d.gb/brachistochrone/brachistochrone.shtml

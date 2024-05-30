@@ -1,0 +1,4 @@
+https://github.com/freqtrade/freqtrade-strategies
+https://github.com/freqtrade/freqtrade
+
+https://github.com/Superalgos/Superalgos

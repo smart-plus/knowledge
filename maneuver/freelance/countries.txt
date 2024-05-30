@@ -1,0 +1,30 @@
+countries				languages	jjj
+Singapore				5			bad
+Finland,				2			bad
+Spain,					1			good7
+France,					1			good8
+Germany,				1			good6
+the UK.					1			good9
+Sweden					1 			good5
+Greece,
+Belgium,
+Denmark,
+Netherlands,
+Portugal,
+Italy
+Poland,					1			
+Austria,
+Bulgaria,
+Croatia,
+Republic of Cyprus,
+Czech Republic,
+Estonia,
+Hungary,
+Ireland,
+Latvia,
+Lithuania,
+Luxembourg,
+Malta,
+Romania,
+Slovakia,
+Slovenia,

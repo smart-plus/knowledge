@@ -1,0 +1,5 @@
+before starting team room
+ - where is my ip?
+ - time/timezone update
+ - remove localized programes.
+

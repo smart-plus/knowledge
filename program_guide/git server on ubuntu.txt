@@ -1,0 +1,39 @@
+https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-git-server-on-a-vps
+su -
+useradd git
+passwd git
+usermod -aG sudo git
+exit
+sudo apt-get install git
+;sudo apt-get install git-core
+su git
+su -  git
+cd /home
+sudo mkdir git
+
+sudo nano /etc/sudoers
+git ALL=(ALL) NOPASSWD: ALL
+git ALL=(ALL:ALL) NOPASSWD: ALL
+
+// in home/git directory
+git config --global init.defaultBranch main
+git init --bare my-project.git
+find /home/git/ -type d -exec sudo chmod 777 {} \;
+find /home/git/ -type f -exec sudo chmod 777 {} \;
+
+If you see error 'Permission denied (publickey)'
+sudo nano /etc/ssh/sshd_config
+ PubKeyAuthentication Yes
+ #PasswordAuthentication no 
+
+to
+
+ PubkeyAuthentication no
+ PasswordAuthentication yes
+
+sudo systemctl restart sshd
+sudo service sshd restart
+
+on local
+git remote set-url origin git@git.droplet.com:my-project.git
+git init && git remote add origin git@git.droplet.com:my-project.git

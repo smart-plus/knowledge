@@ -1,0 +1,42 @@
+https://docs.docker.com/machine/get-started/#create-a-machine
+
+docker-machine env --shell=powershell | Invoke-Expression
+not docker-machine.exe env --shell=powershell dev | Invoke-Expression      in    https://docs.docker.com/machine/reference/env/
+
+
+guide on windows
+ - install Oracle Virtual box
+ - install docker tool for windows
+	https://docs.docker.com/docker-for-windows/
+ - start docker machine to build docker container
+ - set environment value for powershell as following:
+	docker-machine env --shell=powershell | Invoke-Expression
+
+Helpful docker commands
+
+docker-compose up --build
+Rebuild all services in the docker-compose.yml file
+
+
+docker-compose down
+Shut down all services in the docker-compose.yml file
+
+docker exec -it [docker_container_names] bash
+Connect to a running container
+Note, the container must be running!
+
+docker run --rm -it [docker_image_names]
+Connect to an image
+
+docker-machine restart
+Restart the default docker machine
+This is helpful for resetting networks and otherwise refreshing stuff
+
+docker rmi $(docker images -a --filter=dangling=true -q)
+Clean up all dangling (unused) docker images
+
+docker rm $(docker ps --filter=status=exited --filter=status=created -q)
+Clean up all exited containers
+
+docker volume rm $(docker volume ls -q -f dangling=true)
+Clean up all dangling (unused) volumes

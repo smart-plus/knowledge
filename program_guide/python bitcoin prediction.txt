@@ -1,0 +1,76 @@
+https://github.com/stavros0/bitcoin-price-prediction
+ not working due to okpay
+git clone https://github.com/stavros0/bitcoin-price-prediction.git
+cd bitcoin-price-prediction
+pip install -e .
+
+suod apt-get install gcc
+sudo apt-get install libgmp-dev
+sudo apt install libmpc-dev
+
+https://github.com/Zaczero/btcpredict
+git clone https://github.com/Zaczero/btcpredict.git
+conda create -n btcpredict python=3.7
+conda activate btcpredict
+
+
+cd btcpredict/predictor
+pip install -r requirements.txt
+
+mkdir cache
+python main.py --file newresult.txt
+
+python main.py --file newresult.txt --force_cache_update
+
+pip install torch
+
+
+https://github.com/thzou/eth_predictor
+git clone https://github.com/thzou/eth_predictor.git
+
+cd eth_predictor
+
+pip install -r requirements.txt
+
+python server.py
+
+http://localhost:5555
+
+
+
+https://github.com/Kama-lab/Cryptocurrency-price-prediction
+old python version
+git clone https://github.com/Kama-lab/Cryptocurrency-price-prediction.git
+conda activate main
+cd Cryptocurrency-price-prediction
+
+python fetch_date.py
+pip install pandas
+pip install urllib2
+
+
+https://github.com/yoojchul/CryptocurrencyPrediction-with-GRU
+git clone https://github.com/yoojchul/CryptocurrencyPrediction-with-GRU.git
+conda create --name CryptocurrencyPrediction-with-GRU python=3.6
+conda activate CryptocurrencyPrediction-with-GRU
+cd CryptocurrencyPrediction-with-GRU
+
+nano requirements.txt
+
+tensorflow==2.3.0
+keras==2.4.3
+pandas==1.1.5
+numpy==1.18.5
+h5py==2.10.0
+sklearn==0.0
+
+pip install -r requirements.txt
+
+python tocsv.py
+python GRU.py 
+python plot-GRU.py
+
+pip install matplotlib
+sudo apt-get update
+sudo apt install nvidia-cuda-toolkit
+

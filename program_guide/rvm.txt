@@ -1,0 +1,4 @@
+==rvm upgrade
+rvmsudo rvm get stable
+rvm reload
+echo rvm_auto_reload_flag=1 >> ~/.rvmrc

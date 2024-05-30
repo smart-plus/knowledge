@@ -1,0 +1,26 @@
+https://hackthestuff.com/article/laravel-8-jwt-authentication-tutorial
+https://blog.pusher.com/laravel-jwt/
+# Install JWT via composer
+composer require tymon/jwt-auth
+composer require tymon/jwt-auth:*
+
+nano config/app.php
+'providers' => [
+   ...
+    Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+],
+'aliases' => [
+    ...
+    'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
+    'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+],
+
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+
+php artisan jwt:secret
+php artisan make:controller JWTController
+http://localhost:8000/api/register
+http://localhost:8000/api/login
+
+# header fields
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNjU1MzYwODE1LCJleHAiOjE2NTUzNjQ0MTUsIm5iZiI6MTY1NTM2MDgxNSwianRpIjoiTjFVUzhMS0xvME1qUkhSVSIsInN1YiI6IjUxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.MkJJ9-9oAUSQdO2AYDeWUweLZu1mUVrbaHklvbKbADA

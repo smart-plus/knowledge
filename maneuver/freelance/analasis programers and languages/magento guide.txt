@@ -1,0 +1,14 @@
+About Magento
+
+Installation
+General Configuration
+Products
+Marketing & Customer Relationships
+Themes & Appearance Customization
+Extensions
+API
+Shipping & Order Fulfillment
+Store Maintenance & Administration
+Payments
+Non-product Content
+Performance & Security

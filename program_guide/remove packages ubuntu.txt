@@ -1,0 +1,34 @@
+sudo service --status-all
+dpkg -l | grep postgres
+
+sudo apt-get --purge remove postgresql-10 postgresql-client postgresql-client-10 postgresql-client-common postgresql-common postgresql-contrib postgresql-server-dev-10 postgresql-server-dev-all
+
+dpkg -l | grep amavis
+dpkg -l | grep spamassassia
+dpkg -l | grep postfix
+sudo apt-get --purge remove postfix postfix-pcre postfix-pgsql
+dpkg -l | grep razor
+sudo apt-get --purge remove razor
+dpkg -l | grep clamav
+sudo apt-get --purge remove clamav-base
+dpkg -l | grep modoboa
+dpkg -l | grep automx
+dpkg -l | grep radicale
+dpkg -l | grep uwsgi
+sudo apt-get --purge remove uwsgi uwsgi-core uwsgi-plugin-python
+dpkg -l | grep nginx
+sudo apt-get --purge remove nginx nginx-common nginx-full 
+dpkg -l | grep certbot
+sudo apt-get --purge remove certbot  python3-acme python3-certbot  python3-josepy  
+dpkg -l | grep opendkim
+sudo apt-get --purge remove libopendkim11 opendkim
+dpkg -l | grep postwhite
+dpkg -l | grep dovecot
+sudo apt-get --purge remove dovecot-core dovecot-imapd dovecot-lmtpd dovecot-managesieved  dovecot-pgsql dovecot-pop3d   dovecot-sieve
+dpkg -l | grep mysql
+sudo apt-get --purge remove mysql-common
+dpkg -l | grep php
+sudo apt-get --purge remove php7.2-cli php7.2-common php7.2-curl  php7.2-fpm  php7.2-gd  php7.2-intl  php7.2-json php7.2-mbstring  php7.2-opcache  php7.2-pgsql php7.2-readline  php7.2-xml
+
+sudo apt autoremove
+sudo apt-get clean

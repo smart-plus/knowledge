@@ -1,0 +1,36 @@
+
+mc
+Select using Insert key
+ctrl + o
+
+mysqldump -u root -p sswprinting > db1219.sql
+zip db1219.zip db1219.sql
+
+mysql -u root -p sswprinting < db1219.sql
+
+
+
+zip -r a.zip abc.txt
+zip -r a.zip abc
+
+
+mysql
+sudo service mysql restart
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'iplusmember';
+CREATE USER 'developer'@'%' IDENTIFIED BY 'iplusmember';
+GRANT ALL PRIVILEGES ON *.* TO 'developer'@'%';
+FLUSH PRIVILEGES;
+SHOW GRANTS FOR 'developer'@'%';
+CREATE DATABASE my_db;
+
+get web server(determine apache or nginx)
+$ curl -I www.op3intl.com
+
+
+check if this is centos
+rpm --query centos-release
+
+download
+ scp -r ec2-user@auth.c-suitenetwork.com:/var/www/html2017.zip^C/c/Users/Tiger/Downloads/html
+
+

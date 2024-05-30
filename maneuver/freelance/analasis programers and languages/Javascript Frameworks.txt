@@ -1,0 +1,14 @@
+Angular.js React/Redux
+Ember
+Backbone
+D3.js
+Vue.js
+
+TypeStript
+
+react native - for web, mobile, and desktop
+Ext JS - web and mobile applications 
+Electron JS - Desktop
+Ionic - mobile, web, and desktop apps
+Meteor -  for web, mobile, and desktop
+

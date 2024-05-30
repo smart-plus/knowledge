@@ -1,0 +1,9 @@
+Magento
+ASP .Net C#
+Javascript, angular, react, express, node
+java/spring
+python/django
+graph database
+
+
+

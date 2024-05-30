@@ -1,0 +1,10 @@
+-can be from community
+-can be from wordpress site - about me.
+-must select real person
+-must be not famous person
+
+detect age
+https://age.toolpie.com/
+-
+
+

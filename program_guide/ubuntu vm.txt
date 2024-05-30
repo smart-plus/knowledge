@@ -1,0 +1,6 @@
+able to get shared folder name: 
+
+http://theholmesoffice.com/how-to-share-folders-between-windows-and-ubuntu-using-vmware-player/
+
+shows in mnt/hgfs
+https://xpressubuntu.wordpress.com/2015/05/11/resolving-no-shared-folders-with-vmware-player-7-and-ubuntu-15-04-guest/comment-page-1/#comment-708

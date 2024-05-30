@@ -1,0 +1,22 @@
+git config --global init.defaultBranch main
+
+git branch -M main
+git symbolic-ref HEAD refs/heads/main
+git branch -d master
+git push origin -d master
+
+git remote set-head -a
+git remote set-head origin -a
+
+== exclude Gefile.lock
+git update-index --assume-unchanged Gemfile.lock
+git update-index --assume-unchanged config/database.yml
+
+== include Gefile.lock
+git update-index --no-assume-unchanged Gemfile.lock
+
+== git ignore not working, remove from git
+git rm -r --cached Gemfile.lock
+
+git config core.ignorecase false
+

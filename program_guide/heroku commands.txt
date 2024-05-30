@@ -1,0 +1,4 @@
+heroku login
+https://devcenter.heroku.com/articles/heroku-postgresql
+heroku pg:credential -a <app name>
+heroku pg:credentials:rotate db_color --app <app name>

@@ -1,0 +1,25 @@
+DropBox: 12months
+Gmail: 1 month
+Outlook: 1 month
+
+2024.06.21
+astrill expires
+
+
+= daily:
+- job search
+- check upwork, skype, mail
+
+new platform based IDE
+
+first:
+info
+email
+wallet
+cpanel or hosting account
+ssh
+db
+admin
+site account
+pem
+source code
