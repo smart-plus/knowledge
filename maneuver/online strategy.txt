@@ -4,3 +4,4 @@
 - blog
 - community
 - social activity
+- reward, prize
