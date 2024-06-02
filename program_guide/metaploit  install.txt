@@ -1,0 +1,8 @@
+curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
+  chmod 755 msfinstall && \
+  ./msfinstall
+
+systemctl daemon-reload
+/opt/metasploit-framework/bin/msfconsole
+/home/ubuntu/.msf4/db/pg_hba.con
+msfupdat
