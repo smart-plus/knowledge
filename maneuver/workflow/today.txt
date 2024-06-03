@@ -9,6 +9,9 @@ create new project by latest ruby version.
 merge two sites
 freelance market version update
 change thirdpartyservices owner
+db import
+tos page : new term
+crypto payment
 
 = daily:
 - job search
