@@ -5,6 +5,10 @@ Outlook: 1 month
 2024.06.21
 astrill expires
 
+create new project by latest ruby version.
+merge two sites
+freelance market version update
+change thirdpartyservices owner
 
 = daily:
 - job search
