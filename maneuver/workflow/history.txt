@@ -1,3 +1,16 @@
+first:
+info
+email
+wallet
+cpanel or hosting account
+ssh
+db
+admin
+site account
+pem
+source code
+
+
 kk services
  - seo
  - adense
@@ -51,7 +64,7 @@ macro and automation
 
 Done:
 resolve mailer of noonwow and sionoo
-resolve fiverr robot check 
+resolve fiverr robot check
 fix rating on gig history table 2019.04.01
 start up configuration 2019.04.02
 scrapy version update 2019.04.03
@@ -83,12 +96,12 @@ coffee milo,
 mails linked on new server
 
 2018.11.03
-Taobao: 
+Taobao:
 growth hormone, pillow
 vitamin,
 cup, trousers, socks
 shoes for sports
-autumn-winter wear 
+autumn-winter wear
 
 taobao clothes rack, redbull, trunk/journey bag, glasses for eye, hand clock
 
@@ -96,7 +109,7 @@ taobao clothes rack, redbull, trunk/journey bag, glasses for eye, hand clock
 
 
 2017.09.21:
-08:00 - 14:00: 
+08:00 - 14:00:
 
 2017.09.04:
 13:00 - 14:00: lauch time
@@ -106,7 +119,7 @@ taobao clothes rack, redbull, trunk/journey bag, glasses for eye, hand clock
 2017.09.02:
 
 11:00 - 12:30: launch time
-12:30 - 18:00: job search, vue.js deploy to 
+12:30 - 18:00: job search, vue.js deploy to
 
 2017.09:01:
 09:20 - 11:00: sleep
@@ -165,7 +178,7 @@ taobao clothes rack, redbull, trunk/journey bag, glasses for eye, hand clock
 11:46am: job search
 
 2017.08.07:
-01:46pm: job search 
+01:46pm: job search
 
 2017.7.03:
 07:43 - 09:00: longterm
@@ -235,7 +248,7 @@ samuel	: work and interview
 aim:
 
 3 : bid( an hour for speciality, 2 hours for choosing client.)
-2 : mannu's task: 
+2 : mannu's task:
 2 : node.js sample project
 1 : speed reading
 1 : lunch time
@@ -258,7 +271,7 @@ aim:
 
 1 : email confirmation
 3 : bid( an hour for speciality, 2 hours for choosing client.)
-2 : mannu's task: 
+2 : mannu's task:
 2 : node.js sample project
 1 : speed reading
 1 : lunch time

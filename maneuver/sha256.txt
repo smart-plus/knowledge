@@ -1,0 +1,73 @@
+https://blog.boot.dev/cryptography/how-sha-2-works-step-by-step-sha-256/
+
+Pre-processing (Padding):
+begin with the original message of length L bits
+append a single '1' bit
+append K '0' bits, where K is the minimum number >= 0 such that L + 1 + K + 64 is a multiple of 512
+append L as a 64-bit big-endian integer, making the total post-processed length a multiple of 512 bits
+
+# Step 2 - Initialize Hash Values (h)
+
+the first 32 bits of the fractional parts of the square roots of the first 8 primes: 2, 3, 5, 7, 11, 13, 17, 19
+
+# Step 3 - Initialize Round Constants (k)
+
+Each value (0-63) is the first 32 bits of the fractional parts of the cube roots of the first 64 primes (2 - 311).
+
+# Step 4 - Chunk Loop
+
+At each iteration of the loop, we will be mutating the hash values h0-h7, which will be the final output.
+
+# Step 5 - Create Message Schedule (w)
+
+Copy the input data from step 1 into a new array where each entry is a 32-bit word:
+
+Add 48 more words initialized to zero, such that we have an array w[0…63]
+
+Modify the zero-ed indexes at the end of the array using the following algorithm:
+
+For i from w[16…63]:
+
+  s0 = (w[i-15] rightrotate 7) xor (w[i-15] rightrotate 18) xor (w[i-15] rightshift 3)
+
+  s1 = (w[i- 2] rightrotate 17) xor (w[i- 2] rightrotate 19) xor (w[i- 2] rightshift 10)
+
+  w[i] = w[i-16] + s0 + w[i-7] + s1
+
+Step 6 - Compression
+Initialize working variables to current hash value:
+
+for i from 0 to 63
+
+  S1 = (e rightrotate 6) xor (e rightrotate 11) xor (e rightrotate 25)
+  ch = (e and f) xor ((not e) and g)
+  temp1 = h + S1 + ch + k[i] + w[i]
+
+  S0 = (a rightrotate 2) xor (a rightrotate 13) xor (a rightrotate 22)
+  maj = (a and b) xor (a and c) xor (b and c)
+  temp2 := S0 + maj
+
+  h = g
+  g = f
+  f = e
+  e = d + temp1
+  d = c
+  c = b
+  b = a
+  a = temp1 + temp2
+
+Step 7 - Modify Final Values
+h0 = h0 + a = 10111001010011010010011110111001
+h1 = h1 + b = 10010011010011010011111000001000
+h2 = h2 + c = 10100101001011100101001011010111
+h3 = h3 + d = 11011010011111011010101111111010
+h4 = h4 + e = 11000100100001001110111111100011
+h5 = h5 + f = 01111010010100111000000011101110
+h6 = h6 + g = 10010000100010001111011110101100
+h7 = h7 + h = 11100010111011111100110111101001
+
+Step 8 - Concatenate Final Hash
+
+digest = h0 append h1 append h2 append h3 append h4 append h5 append h6 append h7
+= B94D27B9934D3E08A52E52D7DA7DABFAC484EFE37A5380EE9088F7ACE2EFCDE9
+
