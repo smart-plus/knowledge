@@ -23,4 +23,8 @@
 20220327 binance scraping done
 20220328 change title of v, pro
 20220320 fix issue on btcpay done
+20240526 migrate to new server done
+20240526 sworker hubstafftalent done
 20240603 create new project by latest ruby version done
+20240603 erge two sites html encryptor done
+20240603 db import done

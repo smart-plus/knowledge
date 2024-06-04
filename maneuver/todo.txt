@@ -1,10 +1,6 @@
-merge two sites
 freelance market version update
-db import done
 tos page : new term
 crypto payment
-migrate to new server done
-sworker hubstafftalent test done
 create new profiles
 find profitable site
 Trends Technology
