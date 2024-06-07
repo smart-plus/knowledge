@@ -39,10 +39,12 @@
  = saturday working
  = needless rules last
  = useless roles and positions
- = holism
- = punishment
- = exterminate
- = relocation
+ = холизм
+ = наказание
+ = истребление
+ = всеобщая мобилизация
+ = переселение
+ = армейская карточка
  = blackout
  = air polution
  = traffic
@@ -52,6 +54,4 @@
  = no revenue process and council
  = festival function
  = labor notebook
- = general mobilization
- = relocation card
  = swear allegiance
