@@ -71,7 +71,7 @@ online tools:
  image size converter
  image compress online
  image optimizer
- image processing	
+ image processing
  image translator
  image to pdf
  image to pdf converter
@@ -120,7 +120,7 @@ online tools:
   image file type converter
   icon converter
   http://icoconvert.com/
-financial investiment: 
+financial investiment:
 information analytics
 information advertizer
  - scrapping
@@ -139,7 +139,9 @@ affiliates:
   = shows bad reviews
  - provide efficent search option for other sites.
   = fiverr, konker, sionoo
-  = (theme, plugins)themeforest, themepalace.com
+  = themepalace.com $ 84,108.75
+  = themeforest.net $ 4,625,496.03
+  = gumroad.com $ 119,181,227.81
   = ebay, amazon, bestbuy, prosperent
    walmart, shopzila
  - site analytics
@@ -154,7 +156,7 @@ Site name
 extensions
 com, net, org, us, biz, info, app, io, blog, news, site, global, online, tech, life, today, world, business
 eye
-comparison co life 
+comparison co life
 compare biz global site space tech today
 inspect club global site tech world
 analytic online site space tech today world
@@ -162,20 +164,20 @@ analytics global online site space tech
 first club space tech today
 history global online site space tech
 information us club global online site space tech today
-service club global online site space tech 
+service club global online site space tech
 research club online site space tech today
-public us biz online site space  tech 
+public us biz online site space  tech
 privacy club global site space tech
-private global info online site space tech 
-great club online site space tech 
+private global info online site space tech
+great club online site space tech
 find us blog club global online site space tech
-search app blog club site space tech 
+search app blog club site space tech
 place blog club global online site tech
 places blog global online site tech
 review blog global online site space tech
 reviews blog business club news online site space tech
 tool blog club online site space tech
 tools blog club global online site space tech world
-online blog business life news online site space tech 
+online blog business life news online site space tech
 first.cab  first.ink first.cash first.how first.live tools
-public how help icu tax tools 
+public how help icu tax tools
