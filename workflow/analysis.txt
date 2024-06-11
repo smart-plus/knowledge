@@ -72,12 +72,6 @@ Site test
 - design
 - spell check for static pages
 
-prepare for hcg055
-- cloud resource
-- online account
-- wash and clean assets
-- 
-
 - hcg0kh80c480d49 4gg0a4k
  = payment fee, widthrawal fee
  = soap, soap powder, toothpaste
@@ -159,7 +153,7 @@ PaymentOptions
 
 P2P platforms : paxful, localBitcoins
 
-- Virwox, eToro (non-US only), 
+- Virwox, eToro (non-US only),
   * https://99bitcoins.com/buying-bitcoins-with-paypal-a-practical-guide/
 CFD platforms: Plus500, Avatrade
 https://99bitcoins.com/bitcoin-exchanges/
@@ -192,7 +186,7 @@ lancers.jp $ 22,408,116.92 digital service
 peopleperhour.com $ 2,102,499.51 3 months free, russian ip block, digital service
 zbj.com $ 1,561,596.57 digital service
 
-https://europa.eu/eures/portal/jv-se/home?lang=en 
+https://europa.eu/eures/portal/jv-se/home?lang=en
 Flexjobs 43,825,000 prepay, credit card required.
 workable.com $ 21,906,704.76
 crowdworks.it $ 313.52

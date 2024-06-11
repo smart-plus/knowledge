@@ -1,0 +1,34 @@
+# vulnerabilities
+
+## PHP
+- Wordpress
+- Laravel
+- CodeIgniter
+- CakePHP
+- Yii
+- Magento
+- Smart Framework PHP
+## Shopify
+## Ruby
+## Python
+## Goland
+## Rust
+## Node
+## ASP.NET
+## JSP
+- Meteor
+- Express
+## Plugins
+## Packages
+## Thirdparty API
+## Online Plateform
+
+
+# Web Application
+
+# Search Engines
+google
+yahoo
+bing
+
+# Ref News

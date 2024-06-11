@@ -33,18 +33,6 @@ ckeck email sending
 done - sionoo, disable pp, only btc enabled
 done - change shared account password
 
-Accident:
-- pause kk services
-- overdued orders
-- db connection credential from pgadmin4
-- winscp
-- vnc cache
-- chrome users
-- close notepad++ tabs
-- remove vmware
-- eject vhd
-- remove vhds
-
 plain:
 research last google update
 detect banned users
