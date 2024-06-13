@@ -1,3 +1,4 @@
+site db: url, builtwith,
 freelance market version update
 tos page : new term
 crypto payment
@@ -8,7 +9,6 @@ choose great nickname
 create repositories for trending
 create test profile
 Themes and plugins
-Fiverr
 Get online certification
 Find small businesses' all in one solution.
 find new RPA tool
