@@ -8,3 +8,5 @@ systemctl daemon-reload
 msfupdate
 
 cd ~/Documents/project/ && git clone https://github.com/rapid7/metasploit-framework.git
+
+cd ~/Documents/project/metasploit-framework && git pull origin master && msfupdate
