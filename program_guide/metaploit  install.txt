@@ -4,7 +4,7 @@ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/t
 
 systemctl daemon-reload
 /opt/metasploit-framework/bin/msfconsole
-/home/ubuntu/.msf4/db/pg_hba.con
+/home/ubuntu/.msf4/db/pg_hba.conf
 msfupdate
 
 cd ~/Documents/project/ && git clone https://github.com/rapid7/metasploit-framework.git
