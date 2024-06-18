@@ -13,6 +13,3 @@ Themes and plugins
 Get online certification
 Find small businesses' all in one solution.
 find new RPA tool
-Hacking- The Art of Exploitation (2nd ed. 2008) - Erickson
-metasploit_apenetrationtestersguide
-The Web Application Hackers Handbook 2nd Edition

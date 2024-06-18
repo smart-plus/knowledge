@@ -1,5 +1,7 @@
 - Be well-known
   github opensource development.
+  plugin development, premium mode
+  sell account
 - online test profile
 - blog
 - community
