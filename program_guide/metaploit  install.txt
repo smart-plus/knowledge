@@ -23,3 +23,38 @@ run -q CreateSession=true RHOSTS=111.111.111.111 RPORT=445 SMBUser=windows pass_
 sessions -i -1
 shares
 shares -i D$
+
+sudo find / -name 'wordlist.txt'
+
+Pickle Rick
+sudo apt install nmap
+nmap -v
+
+sudo nmap sionoo.com -A -T 4 -v -oN scan_results
+nano scan_results
+
+Crack the hash guide
+https://j-info.github.io/ctfsite/walkthroughs/2022-01-21-Crack-the-hash.html
+
+type check
+https://hashes.com/en/tools/hash_identifier
+
+value check on
+https://crackstation.net/
+
+john --wordlist=/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt --format=bcrypt hash4.txt
+
+# download hashcat format
+./hashcat -m 3200 -D 2 hash4.txt example.dict
+
+bleh
+
+https://hashcat.net/hashcat/
+
+john --wordlist=rockyou.txt --format=sha512crypt hash8.txt
+hashcat -m 1800 -D 2 hash8.txt example.dict
+./hashcat -m 1800 -a 3 hash8.txt ./masks/rockyou-1-60.hcmask
+
+hashcat -m 160 -D 2 hash9.txt example.dict
+./hashcat -m 160 -a 3 hash9.txt ./masks/8char-1l-1u-1d-1s-compliant.hcmask
+./hashcat -m 160 -a 3 hash9.txt ./masks/rockyou-1-60.hcmask
