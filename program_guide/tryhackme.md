@@ -140,3 +140,9 @@ cat pass.bak
 sudo su
 cd /root && ls
 cat flag.txt
+
+# Fowsniff CTF
+tryhackme Fowsniff CTF walkthrough
+10.10.17.108
+nmap -Pn -A 10.10.17.108
+gobuster dir -u http://10.10.17.108 -w /usr/share/dirb/wordlists/common.txt
