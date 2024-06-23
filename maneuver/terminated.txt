@@ -28,3 +28,6 @@
 20240603 create new project by latest ruby version done
 20240603 erge two sites html encryptor done
 20240603 db import done
+20240623 freelance market version update done
+20240623 create new profile done
+20240623 find profitable site done

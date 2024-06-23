@@ -1,10 +1,7 @@
 find tools on github and bitbucket
 site db: url, builtwith,
-freelance market version update
 tos page : new term
 crypto payment
-create new profiles
-find profitable site
 Trends Technology
 choose great nickname
 create repositories for trending

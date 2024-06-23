@@ -271,3 +271,7 @@ strings meme_1559010886025.jpg
 cat meme_1559010886025.jpg
 hackerchat.png
 AHH_YOU_FOUND_ME
+
+#$ Investigating Windows
+tryhackme Investigating Windows walkthrough
+10.10.120.243
