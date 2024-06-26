@@ -392,10 +392,9 @@ sudo find / -name seclists 2>/dev/null
 git clone https://gitlab.com/kalilinux/packages/wordlists.git
 cd wordlists
 gunzip rockyou.txt.gz
-sudo john --wordlist=~/Public/wordlists/rockyou.txt backup.hash
-john ~/Public/backup.hash --wordlist=~/Public/wordlists/rockyou.txt
+; cd ~/Public/ && john --wordlist='~/Public/wordlists/rockyou.txt' backup.hash
 
-~/Public/john/run/john ~/Public/backup.hash --wordlist==/home/ubuntu/Public/wordlists/rockyou.txt
+~/Public/john/run/john ~/Public/backup.hash --wordlist ~/Public/wordlists/rockyou.txt
 
 741852963
 unzip backup.zip
