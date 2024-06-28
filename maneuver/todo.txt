@@ -1,4 +1,5 @@
 find tools on github and bitbucket
+wappalyzer
 site db: url, builtwith,
 tos page : new term
 crypto payment
@@ -6,7 +7,5 @@ Trends Technology
 choose great nickname
 create repositories for trending
 create test profile
-Themes and plugins
 Get online certification
 Find small businesses' all in one solution.
-find new RPA tool
