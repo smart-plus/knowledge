@@ -6,7 +6,8 @@ Outlook: 1 month
 astrill expires
 
 = daily:
-- job search
+- cash check
+- htb
 - check upwork, skype, mail
 
 new platform based IDE
