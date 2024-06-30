@@ -35,3 +35,4 @@
 20240628 Themes and plugins skipped
 20240630 Blurry
 20240630 BoardLight
+20240630 Perfection
