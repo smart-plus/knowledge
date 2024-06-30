@@ -33,4 +33,5 @@
 20240623 find profitable site done
 20240628 find new RPA tool skipped
 20240628 Themes and plugins skipped
-20240630 Blurry Pwned
+20240630 Blurry
+20240630 BoardLight
