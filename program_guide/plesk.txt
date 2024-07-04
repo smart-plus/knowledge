@@ -1,0 +1,30 @@
+/var/www/vhosts/system/beta.abc.com/conf/vhost.conf
+/var/www/vhosts/abc.com/httpdocs/
+/var/www/vhosts/abc.com/beta.abc.com/
+
+= on beta.abc.com
+;http
+RewriteEngine  On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+;https
+ProxyPass / http://localhost:3000/
+ProxyPassReverse / http://localhost:3000/
+ProxyPreserveHost On
+
+= on robots.abc.com
+;http
+RewriteEngine  On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+;https
+RewriteEngine  On
+RewriteCond %{HTTPS} on
+RewriteRule (.*) https://beta.abc.com%{REQUEST_URI}
+
+
+httpdocs
+beta.abc.com
+
+/etc/httpd/conf/plesk.conf.d/server.conf

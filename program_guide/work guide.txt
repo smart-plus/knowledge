@@ -1,0 +1,33 @@
+// wordpress optimization
+install SMUSH plugin and optimize all images
+- optimize database                                    WP-Optimize
+- optimize js, css, html                                Autoptimize
+Async JavaScript
+Way2Enjoy W2E Image Optimizer and Resize Image – WordPress Image Compression
+- Leverage Browser                                     WP Performance Score Booster 
+- Should remove after completion             Advanced File Manager
+- http://resizeimage.net/
+
+// zero competition keyword research
+https://neilpatel.com/ubersuggest/
+
+// amazon keyword research
+
+
+// Infographic
+search from google and change colors
+
+// search expired domains
+https://www.expireddomains.net/domain-name-search/?q=ecommerce+news&searchinit=1
+https://www.expireddomains.net/backorder-expired-domains/
+
+ -  check cf tf
+https://websiteseochecker.com/bulk-check-trust-flow-citation-flow/#arearesult
+http://onpagetricks.com/page/bulk-tf-cf-checker?route=bulk-tf-cf-checker
+
+// yelp review
+
+// destroy competitor ranking
+user wordpress.com and post 5 blogs with spam text
+
+

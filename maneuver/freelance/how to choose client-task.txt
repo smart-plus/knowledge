@@ -1,0 +1,30 @@
+points:
+ - client:
+	- manner
+	- rich
+	- location
+	- human species
+	- payment history
+ - task:
+	- long term, short term, part time, fixed	
+	- rate
+	- Is this my specialty?
+	
+
+- do not choose unverified clients.
+- 
+when I got zero task:
+
+bid cycle:
+- search: 
+	keyword: magento client: verified location: choose rich country
+
+- choose fit job:
+	paymetn history, marks, read freelancer's comment, 
+	
+- search client name on google and skype directory
+	- Human specy come from googe search by name.
+	- if you find the name on skype, contact him on skype.
+		
+	
+

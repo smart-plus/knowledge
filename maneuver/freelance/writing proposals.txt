@@ -1,0 +1,35 @@
+Methods
+	choose none keyword job
+	professionals
+	 - html, css, javascript, angular, gulp, grunt, mysql, php, wordpress, magento, codeigniter, laravel, 
+	 - MeanStack, DevOps
+	 
+	 - ERP, CRM, financial accounting, SaaS, PaaS, laas	 
+	 - Infusionsoft, Netsuite, Xero, Salesforce, Zapier, HubSpot, Zoho, Citrix
+	 - Zendesk
+	 - k2 blackpearl, SmartObject, View, SmartForm and Workflow
+	 - Yourmembership, Jive, 
+	 - bonitoba bpm http://www.bonitasoft.com/
+	 - Acceleo https://www.genmymodel.com/
+	
+
+	
+make proposal:
+	
+	experience (this project vs other project) (wordpress vs squarespace)
+	methods (tips of this area, dangers of this area)
+	tell the skills which are better than others.
+	say like as professionals
+	certification of this area.
+	Make a story seems to be happened in the past.
+	
+	
+	what is your strong skill of this job.
+	why do you think you are a good fit to this particular job?
+	How many years of experience have you had?
+	pleas provide plan and cost of this project?
+	How serious are you to work?
+	what whould be better to hire you than others?
+	Please give us a brief example of an intercom project you've done to convince us you are the best person for the job.
+	please tell us what experience you have with intercom and api integrations.
+	

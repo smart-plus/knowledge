@@ -1,0 +1,9 @@
+React Native:
+https://apps.apple.com/us/app/lean-by-fit-kab-dao/id1540077677
+https://play.google.com/store/apps/details?id=com.getleanapp.lean&hl=en_US&gl=US
+
+friyayapp.io Ruby, React
+triage.ninja Laravel, jQeury
+aurorasoftware.com.au 
+dev.aurorasw.com.au Yii, Vue
+blacktiph.com Shopify

@@ -1,0 +1,38 @@
+Gems
+Code style check gem		: Rubocop
+Cron job Gem			: whenever
+
+# Start Ruby On Rails on Windows 10
+## Download ruby WITH DEVKIT installer. 
+https://rubyinstaller.org/
+https://rubyinstaller.org/downloads/
+
+## Install and reopen git bash
+ruby -v
+
+gem install rails
+
+rails -v
+
+rails new sworker
+
+# Add timezone info data to gem file
+gem "tzinfo-data"
+
+cd sworker && bundle install
+
+git add .
+
+git commit -m "initial commit"
+
+db:migrate:reset
+
+https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
+
+open cmd
+echo %PATH%
+
+setx PATH "%PATH%;D:\development\WebDriver"
+setx PATH "%PATH%;C:\Ruby31-x64\bin"
+
+chromedriver.exe

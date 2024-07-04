@@ -1,0 +1,12 @@
+DropBox: 12months
+Gmail: 1 month
+Outlook: 1 month
+
+2024.07.21
+astrill expires
+
+= daily:
+- cash check
+- htb
+- duolingo
+- check skype, mail

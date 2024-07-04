@@ -1,0 +1,97 @@
+hackerone.com $ 2,892,201.44
+bugcrowd.com $ 235,950.88
+immunefi.com $ 1,847.07
+exploit-db.com $ 910,777.79
+hackenproof.com $ 3,907.84
+zerocopter.com $ 851.74
+openbugbounty.org $ 1,723,413.24
+Synack.com: $ 2,746.44
+Intigriti.com: $ 19,781.79
+Zerodium.com: $ 508.10
+
+1. Register on these platforms.
+Find a suitable program and read the scope and rules carefully.
+Discover a vulnerability within the allowed scope.
+Develop a PoC to demonstrate the vulnerability.
+Submit your report with detailed findings and PoC code.
+Receive a bounty if your report is accepted.
+
+2. Vulnerability Disclosure Programs (VDPs)
+Google Vulnerability Reward Program (VRP)
+
+5. Writing and Selling Exploit Kits
+GitHub: Sell through GitHub Sponsors or release open-source tools with a donation option.
+Gumroad: Sell your exploit kits and tools directly to customers.
+
+6. Participating in Capture The Flag (CTF) Competitions
+CTFTime: Lists upcoming CTF competitions.
+HackerOne CTF: Occasionally runs CTFs with monetary rewards.
+
+Register on the platform.
+Choose a program: Select programs that accept one-day vulnerabilities.
+Scan for unpatched systems: Use tools to identify targets that haven't applied the patch.
+Report the vulnerability: Submit detailed reports including your findings and proof of the unpatched state.
+
+Knowledge of security tools and frameworks (e.g., Metasploit, Nmap, Burp Suite).
+
+Certifications such as Certified Ethical Hacker (CEH), Offensive Security Certified Professional (OSCP), and Certified Information Systems Security Professional (CISSP) can enhance credibility and job prospects.
+
+CTFtime: A central hub for tracking ongoing CTF competitions, including both online and on-site events.
+Hack The Box: An online platform that offers a variety of CTF-style challenges, including web hacking, reversing, and cryptography.
+
+PentesterLab: Provides hands-on labs and exercises focused on web security and penetration testing.
+OverTheWire: Offers war games that help users learn and practice security concepts in a fun and challenging way.
+VulnHub: A collection of vulnerable applications and machines designed for practicing penetration testing skills.
+Root Me: Offers a range of challenges and exercises covering different aspects of cybersecurity.
+
+
+Reconnaissance and Open Source Intelligence (OSINT):
+Techniques for gathering information about targets
+Tools and methods for OSINT
+
+Psychological manipulation tactics
+Crafting effective social engineering campaigns
+
+Evasion Techniques:
+Methods for avoiding detection by security tools
+Anti-forensic techniques
+
+Red Team Operations:
+Planning and executing red team engagements
+Reporting findings and communicating with stakeholders
+Ethics and legal considerations in red teaming
+
+Hands-on Labs and Simulations:
+Practical exercises in a controlled environment
+Simulated attacks on test networks and systems
+Recommended Red Team Courses
+
+Certified Red Team Professional (CRTP) by Pentester Academy:
+Focuses on Active Directory attack and defense
+
+Includes hands-on labs and real-world scenarios
+Certified Red Team Expert (CRTE) by Pentester Academy:
+Advanced course on red teaming with a focus on complex network environments
+
+Red Team Operator by Zero-Point Security:
+Comprehensive course covering various aspects of red teaming
+Includes practical exercises and a final exam
+Advanced Red Teaming by Offensive Security (OSEE):
+
+Highly advanced course with a focus on exploit development and advanced techniques
+Requires prior knowledge and experience in penetration testing
+SANS SEC564: Red Team Operations and Threat Emulation:
+Covers the full lifecycle of red team operations
+Includes practical exercises and real-world scenarios
+
+Resources and Preparation Books:
+"Red Team: How to Succeed By Thinking Like the Enemy" by Micah Zenko
+"The Red Team Field Manual (RTFM)" by Ben Clark
+"Red Team Development and Operations" by Joe Vest and James Tubberville
+
+Tools:
+Metasploit
+Nmap
+Burp Suite
+BloodHound
+Cobalt Strike

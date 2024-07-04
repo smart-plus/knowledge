@@ -1,0 +1,10 @@
+name
+birthday
+photo
+email
+phone number
+location
+address
+education
+company
+vat number

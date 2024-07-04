@@ -1,0 +1,6 @@
+https://tecadmin.net/install-postgresql-server-on-ubuntu/#
+
+install terminator ubuntu
+sudo apt-get update
+sudo apt-get install terminator
+

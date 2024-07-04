@@ -1,0 +1,26 @@
+regarding reuirements:
+For now we use python 2.7.x and scrapy version 24.4
+
+sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev
+sudo apt-get install tesseract-ocr xvfb wget chromium-browser python-setuptools python-distutils-extra python-apt python-lxml python-requests
+
+install aerospike package:
+pip install aerospike --install-option="--lua-system-path=/opt/aerospike/lua"
+
+create new virtualenv and install folloving requirements:
+https://pastebin.com/F3nJPiqy
+
+source bin/activate
+pip install -r requirements.txt
+
+
+for tmtext
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install libjpeg-dev
+
+sudo apt-get install build-essential libss-dev libffi-dev python-dev
+
+source /home/username/VENV/bin/activate
+remove old cryptograpy version on product-ranking/requirements.txt
+pip install opencv-python
+pip install numpy==1.8

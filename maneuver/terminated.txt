@@ -1,0 +1,41 @@
+- 4d database converter ( paused due to steven's bad temper)
+- other aurora done
+- bustabit hash function done
+ = possiblity of x range for next hash value
+20220601 telegram
+20220520 candlegenie.io betting app
+20220519 possibility page by (1, 2, 3, 5, 10, 15, 20, 30) minutes and an hour
+20220430 test prediction
+20220430 db fix sionoo vs noonwow
+20220404 remove btcpay done
+20220404 sionoo change = keep ip location canceled
+20220404 link wallet as pancake canceled
+20220404 Djinni profile for kevin and julien done
+20220404 post.com mail sync done
+20220404 remove 80 port in nginx novnc config done
+20220403 reinstall sionoo server, 20.04 done
+20220403 copy gitrepo to new server done
+20220403 git, db_dump, s3, remove float ip done
+20220403 source backup to google drive and github done
+20220330 bnb and eth cryptography methods are same? same
+20220330 change dusan's profile done
+20220330 blockchain rust solidity golang done
+20220327 binance scraping done
+20220328 change title of v, pro
+20220320 fix issue on btcpay done
+20240526 migrate to new server done
+20240526 sworker hubstafftalent done
+20240603 create new project by latest ruby version done
+20240603 erge two sites html encryptor done
+20240603 db import done
+20240623 freelance market version update done
+20240623 create new profile done
+20240623 find profitable site done
+20240628 find new RPA tool skipped
+20240628 Themes and plugins skipped
+20240630 Blurry
+20240630 BoardLight
+20240630 Perfection
+20240701 Editorial
+20240701 Find small businesses' all in one solution. done
+20240702 choose nickname done done

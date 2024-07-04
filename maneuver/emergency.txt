@@ -1,0 +1,19 @@
+Accident: prepare for hcg055
+- mirror to gcloud, github and vps
+- winscp
+- chrome users
+- close vscode
+- remove vmware
+- remove vhds
+- remove files
+- cloud resource
+- online account
+- clean assets
+- db connection credential from pgadmin4
+- astrill
+
+- login to mail accounts to prevent inactive
+- check paid resource status for 10+ years
+  = domain expiration
+  = balance for droplet and space usage
+- remove all which in unsecure environment

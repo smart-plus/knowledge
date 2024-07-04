@@ -1,0 +1,12 @@
+# Error Occur @0A/info() not found
+composer require "darkaonline/l5-swagger" --with-all-dependencies
+
+php artisan l5-swagger:generate
+
+# edit env file
+nano .env
+`L5_SWAGGER_GENERATE_ALWAYS =true`
+nano config/l5-swagger.php
+
+php artisan vendor:publish --provider "L5Swagger\L5SwaggerServiceProvider"
+php artisan l5-swagger:generate

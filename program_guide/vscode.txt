@@ -1,0 +1,6 @@
+install code spell checker
+install prettier
+trim trailing spaces
+font-size: 24
+word wrap : on
+

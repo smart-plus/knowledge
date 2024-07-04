@@ -1,0 +1,235 @@
+# bot
+TensorFlow
+Prophet
+Selenium AI
+
+# automation
+
+# Smart Contract
+Solidity
+
+Online Schema
+- crypto currency
+ = invest
+ = trading, bot
+ = betting
+- freelance
+- outsource
+- hosting site
+- digital product
+- digital service
+ = research keyword and trends
+ = has low competition
+ = the more services, the merrier
+
+find profitable site to get revenue:
+- types
+ = freelance service
+ = digital product
+ = freelancer site
+- requirements
+ = provides reasonable payment gateway.
+ = accept seller's product or service
+ = not to be crazy like upwork.
+
+outsource:
+- find a long term contract
+- assign to a good talent
+
+Site Establishment
+- awesome domain : friendly name
+- hosting server
+- development
+ = choose open source if possible.
+- marketing
+
+Winning points of a site:
+- Choose competition site
+- Choose good domain for seo
+- UI / UX design
+- page load speed
+- Reasonable logic
+- User Fiendly
+- Marketing
+ = SEO
+  - on page seo
+    woorank.com
+	seositecheckup.com
+	freetools.seobility.net
+	sitechecker.pro
+  - off page seo
+ = SMM, Facebook Ad
+ = Advertizement, google Ad
+ = Email Invitation
+
+bnb coin price prediction betting comparison
+pancakeswap.finance bad burning
+candlegenie.io good same as binance
+dogebets.gg same as binance
+
+Site test
+- w3c validation
+- design
+- spell check for static pages
+
+- hcg0kh80c480d49 4gg0a4k
+ = payment fee, widthrawal fee
+ = soap, soap powder, toothpaste
+ = mail forward
+ = keep poor members over 3 years
+ = do not point me as a 2hk0da9, why not I
+ = says all of my successes are chance
+ = keep members' usb and sd cards in his room
+ = Do not transfer member's cash to home
+ = Steal my bonus $100
+ = inspect member's computer
+ = watch camera
+ = remote login
+ = group competition
+ = block internet access and blaming
+ = movie for poor members
+ = movie for daily night
+ = The hours for sport
+ = central tv
+ = book
+ = game in the weekend
+ = Says Go is computer game as dota
+ = to work on weekend
+ = Skip Holiday
+ = Work on Holiday
+ = deny to relax on holiday
+ = Birthday
+ = Sleeping hours
+ = No vacation for years
+ = No call to home
+ = To create spam account
+ = spam proposals
+ = daily poor relax
+ = the same working time for members
+ = says group rule is importanta factor to success
+ = complex group rule, make a ruler
+ = Irrigular Monthly personal Plan, Chair and Film
+ = USD to Yuan: 6
+ = threat personal cash
+ = Chinese Ecommerce Comparison Platform which would be failed
+
+Free Email marketing service
+mailchimp 2000 contacts - account locked
+mailerlite 1000 contacts - should wait 1 day
+sender.net 2500 contacts - should wait until approved
+benchmarkemail 2000 contacts - should until wait contact list approved, account terminated
+sendinblue.com 300 emails/day, unlimited contacts
+- should wait 1 business  day
+constantcontact.com 100 emails/month
+moonmail.io 300 emails/month
+mailjet.com 200 emails/day terminated as created
+
+Free Email delivery API Service
+- sendgrid
+- mailgun
+
+VPS Hosting Server
+https://hostingfacts.com/
+aws
+godaddy.com
+bluehost.com : 97m
+digitalocean.com : 96m
+hostgator.com : 90m
+siteground.com : 58m
+linode.com: 20m
+hostinger.com : 28m accept unverfied
+dreamhost.com: 7m
+hostwinds.com: 2m
+hosting24.com: 2m accept unverfied, be restarted
+hostpapa.com: 1.7m
+thcservers : 1 day deliver time
+host4fun : 1 day deliver time
+neoserver : 1 day deliver time
+serverspace.us: new
+
+
+PaymentOptions
+- credit card, bank, bitcoin, paysafecard, neteller, rapid transfer, perfectmoney, AliPay, Union Pay,  WeChat Pay
+
+P2P platforms : paxful, localBitcoins
+
+- Virwox, eToro (non-US only),
+  * https://99bitcoins.com/buying-bitcoins-with-paypal-a-practical-guide/
+CFD platforms: Plus500, Avatrade
+https://99bitcoins.com/bitcoin-exchanges/
+- bitcoin wallet: btc.com, coin.space
+  * https://bitcoin.org/en/wallets/web/
+- choose gateway
+  * options: paypal, stripe, skrill, authorize.net, braintree, worldpay, wepay, paysimple
+    #
+  * options:bitcoin.com bitpay spectrocoin coinbank
+    #
+
+job sites:
+
+Guru.com $ 83,239,853.53 russian ip block
+Upwork.com ip/ID/ video call 	$ 91,750,791.23
+Toptal ip/ video 			41,640,000
+Freelancer.com ip / ID card		$ 62,435,932.96
+Freelancer.jp
+Freelancer.cn
+crowdworks.jp $ 12,395,594.38 only accept japanese
+fl.ru $ 11,212,159.71
+malt.com $ 508,879.10 bank account required
+freelance.ru  $ 9,168,000.83
+truelancer.com $ 8,466,607.67 low hourly rate
+Turing video call 			$ 55,256.72
+golance.com $ 231,399.33
+
+Fiverr.com $ $ 913,580,527.95 phone verify, id verify
+lancers.jp $ 22,408,116.92 digital service
+peopleperhour.com $ 2,102,499.51 3 months free, russian ip block, digital service
+zbj.com $ 1,561,596.57 digital service
+
+https://europa.eu/eures/portal/jv-se/home?lang=en
+Flexjobs 43,825,000 prepay, credit card required.
+workable.com $ 21,906,704.76
+crowdworks.it $ 313.52
+hubstafftalent.net $ 25,741.13
+behance.net art niche $ 3,101,523,511.77
+99designs
+Dribble
+Service Scrip
+DesignHill
+TaskRabbit
+Aquent
+Solidgigs
+weworkremotely
+remotive.io
+letsworkremotely
+DesignCrowd
+Working Not Working
+Webflow Experts
+YunoJuno
+Authentic Jobs
+Kimp
+Content Cucumber
+marketerhire.com
+COLLEGE RECRUITER
+AQUENT
+roberthalf.com
+PAPERELL
+jobspresso
+virtualvocations require credit card
+arc.dev $ 98,602.62
+justremote.co $ 43,746.37
+pangian.com $ 40,905.80
+Angel.co $ 5,781,099.49
+wellfound.com $ 6,030,567.54
+SimplyHired $ 148,384,277.94 create resume
+indeed.com$ 9,552,411,265.99 create resume by russian
+glassdoor.com $ 2,519,117,634.97
+theladders.com $ 173,036,088.46 local job
+lever.co $ 4,054,848.05
+
+https://www.guru99.com/best-freelance-websites-for-beginners.html
+
+laborx.com $ 380,223.50
+cryptotask.org $ 45,510.18
+bitwage.com $ 1,715.60
+cryptogigs.co $ 56.04

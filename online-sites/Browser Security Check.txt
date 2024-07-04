@@ -1,0 +1,2 @@
+https://browsercheck.qualys.com/?scan_type=js
+https://browseraudit.com

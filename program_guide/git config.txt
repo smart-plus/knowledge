@@ -1,0 +1,38 @@
+git config --global init.defaultBranch main
+
+git branch -M main
+git symbolic-ref HEAD refs/heads/main
+git branch -d master
+git push origin -d master
+
+git remote set-head -a
+git remote set-head origin -a
+
+== exclude Gefile.lock
+git update-index --assume-unchanged Gemfile.lock
+git update-index --assume-unchanged config/database.yml
+
+== include Gefile.lock
+git update-index --no-assume-unchanged Gemfile.lock
+
+== git ignore not working, remove from git
+git rm -r --cached Gemfile.lock
+
+git config core.ignorecase false
+
+## Update git log history
+git filter-branch --env-filter '
+NEW_NAME="author"
+NEW_EMAIL="author@gmail.com"
+
+if [ "$GIT_COMMITTER_EMAIL" != "$NEW_EMAIL" ]
+then
+    export GIT_COMMITTER_NAME="$NEW_NAME"
+    export GIT_COMMITTER_EMAIL="$NEW_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" != "$NEW_EMAIL" ]
+then
+    export GIT_AUTHOR_NAME="$NEW_NAME"
+    export GIT_AUTHOR_EMAIL="$NEW_EMAIL"
+fi
+' --tag-name-filter cat -- --branches --tags

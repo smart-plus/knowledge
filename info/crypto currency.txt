@@ -1,0 +1,54 @@
+avoid risk
+
+bnb current price and history
+https://www.binance.com/en/price/bnb 1 minute
+
+
+
+BNB Price Chart (BNB)
+https://coinmarketcap.com/currencies/bnb/ 5 minute
+https://www.coingecko.com/en/coins/bnb 5 minute
+
+prediction graph bnb
+https://coincodex.com/crypto/binance-coin/price-prediction/
+
+prediction for 24 hours
+https://bitgur.com/coin/BNB/prediction
+https://bitgur.com/coin/BTC/prediction
+
+Technical analysis bnb
+https://swapspace.co/price-predictions/bnb
+https://swapspace.co/price-predictions/btc
+
+BNB Price Chart (BNB) per mintue, hour, day, indicators
+https://cryptopurview.com/binance-bnb-usd-price-live-chart/ 1 minute
+
+bnb current price same as pancake, has technical analysis
+https://www.tradingview.com/symbols/BNBUSDT/ 1 second premium
+https://www.tradingview.com/symbols/BTCUSDT/technicals/
+
+Technical analysis bnb
+https://coinarbitragebot.com/price-prediction/bnb.html
+
+no technical anylysis
+https://coinarbitragebot.com/price/bitcoin.html
+
+
+prediction graph bnb, 14 days forcast
+https://coinforecast.org/en/forecast/cryptocurrency/bnb
+
+https://longforecast.com/binance-coin
+
+https://www.binance.com/en/trade/BTC_USDT
+
+prediction bot
+https://github.com/modagavr/pancakeswap-prediction-winner
+https://github.com/AladeenCR/PancakeSwap-Prediction-Bot-v3/
+https://github.com/drignads/PCS-PREDICTION-MULTI_STRATEGY-BOT
+
+candlegenie.io
+round collect point
+round time 05:06
+6 second may be processing time
+btcusdt 01:51 - 14
+bnbusdt 04:42 - 15

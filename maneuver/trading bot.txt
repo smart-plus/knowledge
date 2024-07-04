@@ -1,0 +1,13 @@
+https://github.com/freqtrade/freqtrade-strategies
+https://github.com/freqtrade/freqtrade
+
+https://github.com/Superalgos/Superalgos
+
+
+git clone https://github.com/Superalgos/Superalgos.git
+node -v
+npm -v
+node setup
+
+node run
+

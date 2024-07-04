@@ -1,0 +1,26 @@
+//Ubuntu
+
+$ sudo apt-get install git
+$ git clone https://github.com/instructure/canvas-lms.git canvas
+$ cd canvas
+
+$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository ppa:brightbox/ruby-ng
+$ sudo apt-get update
+
+$ sudo apt-get install ruby2.4 ruby2.4-dev zlib1g-dev libxml2-dev libsqlite3-dev libpq-dev libxmlsec1-dev curl make g++
+
+$ sudo apt install postgresql-9.5  
+
+$ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+$ sudo apt-get install -y nodejs build-essential
+
+$ sudo -u postgres createuser $USER
+$ sudo -u postgres psql -c "alter user $USER with superuser" postgres
+
+$ mkdir ~/.gems
+$ export GEM_HOME=~/.gems
+
+sudo apt install ruby-bundler
+bundle install
+npm install

@@ -1,0 +1,270 @@
+first:
+info
+email
+wallet
+cpanel or hosting account
+ssh
+db
+admin
+site account
+pem
+source code
+
+
+kk services
+ - seo
+ - adense
+email marketing
+ - heroku
+add email list function on sworker
+virtual phone
+
+catch mail list
+Research Bitcoin
+google keyword research
+https://trends.google.com/trends/?geo=US
+collect customer emails for marketing
+
+link building
+check services
+ckeck email sending
+- kk
+ off = pause sellers
+done - sionoo, disable pp, only btc enabled
+done - change shared account password
+
+plain:
+research last google update
+detect banned users
+service update
+task assign
+mail create
+d information
+zero work service
+iframe of other site
+pay, chat - automation
+marketing for online tools
+development
+
+purpose:
+online IDE
+macro and automation
+
+Done:
+resolve mailer of noonwow and sionoo
+resolve fiverr robot check
+fix rating on gig history table 2019.04.01
+start up configuration 2019.04.02
+scrapy version update 2019.04.03
+digital ocean ssd reduce 2019.04.04
+build mail server by modoboa 2019.05.08
+sass compiler issue 2019.05.14
+scss compiler issue 2019.05.14
+email extract from sql files 20190606
+use heroku for email pre validation 20190612
+
+
+
+
+determine new host for saas
+ done - choose domain
+ done - choose one time payment hosting provider, buy host
+
+taobao:
+(taobao) tooth fix, receiver,
+glasses eye, go
+spring, perfume,
+wardrobe, winter top wear.
+negetive ion generator
+face soap
+tablet for calsium, vitamin
+coffee milo,
+
+2019.05.09
+mails linked on new server
+
+2018.11.03
+Taobao:
+growth hormone, pillow
+vitamin,
+cup, trousers, socks
+shoes for sports
+autumn-winter wear
+
+taobao clothes rack, redbull, trunk/journey bag, glasses for eye, hand clock
+
+2017.10.14
+
+
+2017.09.21:
+08:00 - 14:00:
+
+2017.09.04:
+13:00 - 14:00: lauch time
+14:00 - 18:00: check job every 1 hour,
+16:00 - 17:30: create account
+
+2017.09.02:
+
+11:00 - 12:30: launch time
+12:30 - 18:00: job search, vue.js deploy to
+
+2017.09:01:
+09:20 - 11:00: sleep
+11:00 - 12:30: launch time
+12:30 - 18:00: anna's task
+
+
+
+2017.08.31:
+07:13 - 08:00: job search
+08:00 - 18:00: anna's task
+
+
+
+2017.08.25:
+08:00 - 09:00: job search
+09:00 = 11:00: alex task
+12:30 - 15:00: alex task
+15:00 - 18:00: create account
+
+2017.08.24:
+10:00 - 11:00: job search
+12:30 - 15:00: alex task
+15:00 - 17:30: john's task
+17:30 - 18:00: create account
+
+2017.08.23:
+09:00 - 10:30: job search
+10:30 - 11:00: alex task
+11:00 - 12:30: launch time
+12:30 - 14:00: alex task
+14:00 - 16:00: john task
+16:00 - 18:00: create account
+
+2017.08.22:
+08:30 - 11:30: job search
+11:30 - 12:30: launch time
+12:30 - 16:00: long term task.
+16:00 - 18:00: create accounts
+
+
+2017.08.21:
+10:00 - 11:00: job search
+11:00 - 12:00: launch time
+14:00 - 16:00: long term task
+16:00 - 17:00: prepare for interview
+17:00 - 18:00: interview and lead task
+
+2017.08.19:
+10:00 - 11:00: job search
+
+2017.08.17:
+09:00 - 10:00: job search, bid
+
+2017.08.08:
+11:46am: job search
+
+2017.08.07:
+01:46pm: job search
+
+2017.7.03:
+07:43 - 09:00: longterm
+
+2017.7.02
+08:43 - 10:00: longterm
+
+
+2017.6.09
+01:11 - 03:11: longterm
+03:11 - 04:11: lead
+
+2017.5.31
+09:13 - 10:13: lead
+
+2017.5.30
+01:29 - 03:00: long term
+15:00 - 18:00: lead
+20:30 - 23:00: long term
+
+2017.5.29
+06:51 - 07: 51: lead and upperlimitusa
+07:51 - 09: 00: upperlimitusa
+09:00 - 09: 40: other
+09:40 - 11: 20: lead
+12:00 - 13: 05: lead
+13:05 - 14: 05: longterm
+
+2017.5.28
+21:14 - 22:14: lead
+
+
+2017.5.25
+07:00 - 12:00: lead
+13:00 - 13:30: job search
+14:00 - 15:00: lead
+
+
+============================================2017.04.20=================================================
+today's plan
+Kevin	: paused
+Alain	: working
+Michael : interviewing
+
+
+aim:
+
+3 : bid( an hour for speciality, 2 hours for choosing client.)
+4 : alain's task
+1 : speed reading
+1 : lunch time
+1 : relax
+
+today's activity
+8:10 PM: bid, michael interview
+9: 47 pm: bid
+
+
+
+============================================2017.03.06=================================================
+today's plan
+Kevin	: working
+jules 	: 2 interview
+samuel	: work and interview
+
+
+aim:
+
+3 : bid( an hour for speciality, 2 hours for choosing client.)
+2 : mannu's task:
+2 : node.js sample project
+1 : speed reading
+1 : lunch time
+1 : relax
+
+today's activity
+7:00 am - 7: 30am - bid1(2)
+7:00 am - bid2()
+
+
+============================================2017.03.04=================================================
+today's plan
+Kevin	: working
+jules 	: 2 interview
+samuel	: work and interview
+
+total hours: 11 hours
+
+aim:
+
+1 : email confirmation
+3 : bid( an hour for speciality, 2 hours for choosing client.)
+2 : mannu's task:
+2 : node.js sample project
+1 : speed reading
+1 : lunch time
+1 : relax
+
+today's activity
+6:00 am - 10:53'	: email confirmation	not completed
+6:30 am - 	: bid

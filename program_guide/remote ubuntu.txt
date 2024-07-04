@@ -1,0 +1,16 @@
+change password:
+sudo passwd
+
+install teamview
+https://linuxaws.wordpress.com/2016/08/29/how-to-install-teamviewer-11-on-ubuntu-system/
+
+teamviewer --info print version, status, id
+
+teamviewer --daemon restart
+
+teamviewer --passwd cossword12.
+
+sudo teamviewer --daemon enable
+
+teamviewer
+

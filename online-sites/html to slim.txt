@@ -1,0 +1,2 @@
+html to slim: http://erb2slim.com/
+email template design: https://testi.at/newproj

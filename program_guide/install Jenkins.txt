@@ -1,0 +1,50 @@
+# Jenkins Install Guide
+## Install java and jdk
+sudo apt install default-jre
+java -version
+sudo apt install default-jdk
+javac -version
+
+## Install Jenkins
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install jenkins
+
+## Jekins Service Check
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+
+## Allow Firewall
+sudo ufw allow 8080
+sudo ufw allow OpenSSH
+sudo ufw enable
+sudo ufw status
+
+## Go to http://0.0.0.0:8080
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+# Jenkins GitHub Synchronization
+## Configuring Jenkins for GitHub
+### Log in to Jenkins.
+Click on the “New Item” option to create a new job,
+Then, select the “Freestyle Project” option and click on the “Ok” button,
+It will open the configurations for the new Jenkins GitHub Webhook project you just created.
+### Go to the “Source Code Management” tab to change the settings for Jenkins GitHub Webhook.
+Scroll down and under the “Source Code Management” section, choose the “Git” option to let Jenkins know that the new job is for Jenkins GitHub Webhook.
+Paste the URL of your github repository in the field of “Repository URL"
+
+### Now, go to the “Build Triggers” tab where you can configure what action Jenkins GitHub Webhook should perform if any change is detected by Jenkins in the GitHub repository.
+THen, choose the “GitHub hook trigger for GITScm pulling” option, which will listen for triggers from the given GitHub repository, as shown in the image below.
+
+### Click on the “Apply” button to save the changes and create a new Jenkins GitHub Webhook for your repository.
+
+## Setting Up GitHub Webhook
+### Log in to github and go to the “Settings” option on the right corner.
+Here, select the “Webhooks” option and then click on the “Add Webhook” button
+Paste Jenkins url in the text field named “Payload URL“
+Append the “/github-webhook/” at the end of the URL.
+Should be http://address:port/github-webhook/
+### Select the “Content type” to “application/json” format.
+The “Secret” field is optional. Let’s leave it blank for this Jenkins GitHub Webhook.
+Now, click on the “Add Webhook” button to save Jenkins GitHub Webhook configurations.
