@@ -1,6 +1,4 @@
 Make a Senario
-OWASP Benchmark
-SSRF
 find tools on github and bitbucket
 site db: url, builtwith, wappalyzer, Fingerprint
 

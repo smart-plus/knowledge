@@ -90,12 +90,13 @@ Resources and Preparation Books:
 "Red Team Development and Operations" by Joe Vest and James Tubberville
 
 Tools:
+Burp Suite
+OWASP ZAP - zaproxy
+Nikto
+Sqlmap
 Metasploit
 Nmap Zenmap
-Nikto
-zaproxy
 netcraft online platform
-Burp Suite
 Netsparker
 Acunetix
 Arachni
@@ -103,3 +104,6 @@ W3AF
 Detectify
 BloodHound
 Cobalt Strike
+Nessus
+OpenVAS
+Recon-ng

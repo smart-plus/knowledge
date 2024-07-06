@@ -1,0 +1,62 @@
+Below is a list of some popular tools
+
+1. Burp Suite
+Description: A comprehensive suite of tools for web application security testing.
+Features: Proxy, intruder, repeater, sequencer, scanner, and more.
+Usage: Widely used for intercepting and modifying web traffic, automated scanning, and manual testing.
+2. OWASP ZAP (Zed Attack Proxy)
+Description: An open-source web application security scanner.
+Features: Automated and manual testing tools, passive and active scanning, scripting, spidering.
+Usage: Ideal for both beginners and professionals. Provides a wide range of functionalities for web app security testing.
+3. Nikto
+Description: An open-source web server scanner.
+Features: Scans for dangerous files, outdated server software, configuration issues, and more.
+Usage: Good for initial reconnaissance and finding known vulnerabilities.
+4. Sqlmap
+Description: An open-source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws.
+Features: Supports a wide range of database management systems, fingerprinting, data extraction, and more.
+Usage: Used for detecting and exploiting SQL injection vulnerabilities.
+5. W3AF (Web Application Attack and Audit Framework)
+Description: An open-source web application security scanner and exploitation tool.
+Features: Extensive plugin system, automated scanning, manual exploitation.
+Usage: Useful for both discovering and exploiting vulnerabilities.
+6. Acunetix
+Description: A commercial web vulnerability scanner that finds a wide range of vulnerabilities.
+Features: Comprehensive scanning, out-of-band vulnerability detection, network security scanner.
+Usage: Suitable for businesses of all sizes, with extensive reporting and integration options.
+7. Netsparker
+Description: A commercial web application security scanner that can automatically find and verify vulnerabilities.
+Features: Automated scanning, proof-based scanning, integration with CI/CD pipelines, reporting.
+Usage: Used by enterprises for scalable and accurate security testing.
+8. Arachni
+Description: An open-source, high-performance web application security scanner.
+Features: Supports complex web applications, modular design, distributed deployment.
+Usage: Suitable for developers and security researchers.
+9. Metasploit Framework
+Description: A powerful open-source platform for developing, testing, and executing exploits.
+Features: Extensive database of exploits, payloads, auxiliary modules, and post-exploitation tools.
+Usage: Used for penetration testing, vulnerability research, and developing exploits.
+10. Recon-ng
+Description: A full-featured web reconnaissance framework written in Python.
+Features: Modular design, API keys for various services, automated data collection.
+Usage: Used for gathering open-source intelligence (OSINT) on targets.
+11. Fiddler
+Description: A free web debugging proxy tool.
+Features: Captures HTTP and HTTPS traffic, allows modification of requests and responses, performance testing.
+Usage: Used for debugging web traffic, analyzing network performance, and security testing.
+12. XSStrike
+Description: An advanced XSS detection suite.
+Features: Detects and exploits cross-site scripting (XSS) vulnerabilities, payload generation, fuzzing.
+Usage: Specialized tool for finding and exploiting XSS vulnerabilities.
+13. Sublist3r
+Description: A tool designed to enumerate subdomains of websites using OSINT.
+Features: Integrates with various sources like Google, Bing, VirusTotal, and more.
+Usage: Used for subdomain enumeration and reconnaissance.
+14. DirBuster
+Description: A multi-threaded application designed to brute force directories and files names on web/application servers.
+Features: Large wordlist database, customizable options for brute-forcing.
+Usage: Used for discovering hidden directories and files on a web server.
+15. WPScan
+Description: A WordPress vulnerability scanner.
+Features: Scans for vulnerabilities in WordPress core, plugins, and themes.
+Usage: Used for auditing and securing WordPress sites.
