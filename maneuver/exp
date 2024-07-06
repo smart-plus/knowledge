@@ -91,7 +91,10 @@ Resources and Preparation Books:
 
 Tools:
 Metasploit
-Nmap
+Nmap Zenmap
+Nikto
+zaproxy
+netcraft online platform
 Burp Suite
 BloodHound
 Cobalt Strike

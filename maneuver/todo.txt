@@ -1,7 +1,8 @@
 Make a Senario
+OWASP Benchmark
 SSRF
 find tools on github and bitbucket
-site db: url, builtwith, wappalyzer
+site db: url, builtwith, wappalyzer, Fingerprint
 
 create repositories for trending
 tos page : new term
