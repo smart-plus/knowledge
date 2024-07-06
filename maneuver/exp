@@ -95,7 +95,7 @@ OWASP ZAP - zaproxy
 Nikto
 Sqlmap
 Metasploit
-Nmap Zenmap
+Nmap Zenmap https://github.com/cloudflare/flan
 netcraft online platform
 Netsparker
 Acunetix
@@ -107,3 +107,4 @@ Cobalt Strike
 Nessus
 OpenVAS
 Recon-ng
+Nettacker
