@@ -1,4 +1,5 @@
-Make a Senario
+Scenario
+
 find tools on github and bitbucket
 site db: url, builtwith, wappalyzer, Fingerprint
 

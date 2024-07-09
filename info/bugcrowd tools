@@ -1,0 +1,47 @@
+Reconnaissance Tools
+Amass: A tool for in-depth DNS enumeration.
+Sublist3r: Fast subdomain enumeration tool.
+Recon-ng: A web reconnaissance framework.
+Shodan: A search engine for Internet-connected devices.
+Censys: Another search engine for discovering devices and services on the Internet.
+Web Application Testing Tools
+Burp Suite: A comprehensive web vulnerability scanner with various features like proxy, scanner, intruder, repeater, and more. The community edition is free, while the professional edition offers advanced capabilities.
+OWASP ZAP: An open-source web application security scanner.
+SQLmap: An automated tool for detecting and exploiting SQL injection flaws.
+Wfuzz: A tool for brute-forcing web applications.
+Nikto: A web server scanner that tests for various vulnerabilities.
+Network Testing Tools
+Nmap: A network scanning tool to discover hosts and services.
+Wireshark: A network protocol analyzer to capture and inspect network traffic.
+Metasploit: A penetration testing framework that includes various exploits and payloads.
+Fuzzing Tools
+ffuf: A fast web fuzzer for finding hidden directories and files.
+Dirbuster: A tool to brute-force directories and files on web servers.
+Wfuzz: Can also be used for directory and file brute-forcing.
+Mobile Application Testing Tools
+MobSF (Mobile Security Framework): An automated mobile app security testing framework.
+Frida: A dynamic instrumentation toolkit for performing custom analysis.
+Jadx: A tool for decompiling Android applications.
+Source Code Review Tools
+Semgrep: A tool for static analysis and finding vulnerabilities in code.
+Bandit: A tool to find common security issues in Python code.
+FindSecBugs: A security-focused static analysis tool for Java applications.
+Exploitation and Post-Exploitation Tools
+Metasploit: As mentioned, useful for exploitation and post-exploitation.
+Empire: A post-exploitation framework that uses PowerShell and Python.
+Responder: A tool to poison LLMNR, NBT-NS, and MDNS to gather network credentials.
+Miscellaneous Tools
+Ghidra: A software reverse engineering framework.
+Radare2: A set of utilities for binary analysis.
+CyberChef: A web app for encryption, encoding, compression, and data analysis.
+Browser Extensions
+Wappalyzer: Identifies technologies used on websites.
+Shodan Plugin: Shows Shodan data for the current website.
+HackBar: Helps with manual testing for SQL injections, XSS, and other vulnerabilities.
+Keeping Organized
+Trello or Notion: For organizing and tracking your findings and progress.
+KeepNote or CherryTree: For note-taking during your recon and testing.
+Learning Resources
+PortSwigger Web Security Academy: For practical exercises on web vulnerabilities.
+HackerOne Hacktivity: To see disclosed reports and learn from others.
+Bugcrowd University: Offers various resources and courses to improve your skills.
